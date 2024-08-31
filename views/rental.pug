@@ -1,0 +1,647 @@
+doctype html 
+html 
+    head
+        //- Google Tag Manager
+        script.
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NZ24JXK');
+        //- End Google Tag Manager
+        title Lazer Crazer
+        block style
+        style
+            include ../static/style.css
+            include ../static/rental.css
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description', content='Lazer Crazer - Best gaming area for kids and adults')
+        //- LINK TAGS FOR WEBSITE"S FAVICON
+        link(rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon_io/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon_io/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon_io/favicon-16x16.png")
+        link(rel="manifest" href="../static/img/favicon_io/site.webmanifest")
+
+        link(rel='stylesheet' media='screen and (max-width: 1000px)' href='../static/responsive.css')
+    block content 
+        body 
+            //- Google Tag Manager (noscript)
+            noscript
+                iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-NZ24JXK' height='0' width='0' style='display:none;visibility:hidden')
+            //- End Google Tag Manager (noscript)
+            div#navbar
+                div#ul1-wrapper
+                    ul#ul1
+                        li #[a(href='/') HOME]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                #nav-logo
+                    picture
+                        source(type="image/webp" srcset="/static/img/logo-background.webp")
+                        source(type="image/png" srcset="/static/img/logo-background.png")
+                        img#logo-background(src="../static/img/logo-background.png" alt="cant load photo")
+                    a(href='/')
+                        picture
+                            source(type="image/webp" srcset="/static/img/logo.webp")
+                            source(type="image/png" srcset="/static/img/logo.png")
+                            img#main-logo(src="../static/img/logo.png" alt="cant load photo")
+                div#ul2-wrapper
+                    ul#ul2 
+                        li #[a(href='/rental') RENTING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                div#nav-planet 
+                    picture
+                        source(type="image/webp" srcset="/static/img/nav-planet.webp")
+                        source(type="image/png" srcset="/static/img/nav-planet.png")
+                        img(src="../static/img/nav-planet.png" alt="cant load photo")
+
+            div#mobile-navbar
+                div#visible-navbar
+                    a#mobile-logo(href='/')
+                        picture
+                            source(type="image/webp" srcset="/static/img/logo.webp")
+                            source(type="image/png" srcset="/static/img/logo.png")
+                            img(src="../static/img/logo.png" alt="cant load photo")
+                    div#hamburger-icon
+                        span.bar
+                        span.bar
+                        span.bar
+                div#nav-items
+                    ul 
+                        li#home #[a(href='/') HOME]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE] 
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/rental') RENTING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                    div#nav-lightining1
+                        picture
+                            source(type="image/webp" srcset="/static/img/nav-lightining1.webp")
+                            source(type="image/png" srcset="/static/img/nav-lightining1.png")
+                            img(src="../static/img/nav-lightining1.png" alt="cant load photo")
+                    div#nav-lightining2
+                        picture
+                            source(type="image/webp" srcset="/static/img/nav-lightining2.webp")
+                            source(type="image/png" srcset="/static/img/nav-lightining2.png")
+                            img(src="../static/img/nav-lightining2.png" alt="cant load photo")
+                    div#nav-bottom-tower
+                        picture
+                            source(type="image/webp" srcset="/static/img/nav-bottom-tower.webp")
+                            source(type="image/png" srcset="/static/img/nav-bottom-tower.png")
+                            img(src="../static/img/nav-bottom-tower.png" alt="cant load photo")
+
+
+            div#rental-banner
+                div#rental-content
+                    h1 LASER TAG RENTAL 
+                    h2 WE SHIP ADVENTURE STRAIGHT TO YOUR DOORSTEP
+
+                div#rental-bg
+                    picture
+                        source(type="image/webp" srcset="/static/img/rental-bg.webp")
+                        source(type="image/png" srcset="/static/img/rental-bg.png")
+                        img(src="../static/img/rental-bg.png" alt="cant load photo")
+                div#rental-bgM
+                    picture
+                        source(type="image/webp" srcset="/static/img/rental-bgM.webp")
+                        source(type="image/png" srcset="/static/img/rental-bgM.png")
+                        img(src="../static/img/rental-bgM.png" alt="cant load photo")
+
+            div#why-rental
+                h1 WHY 
+                    span#green RENTAL
+
+                div#why-rental-containers
+                    div#rental-gun
+                        picture
+                            source(type="image/webp" srcset="/static/img/rental-gun.webp")
+                            source(type="image/png" srcset="/static/img/rental-gun.png")
+                            img(src="../static/img/rental-gun.png" alt="cant load photo")
+                    div#rental-gunM
+                        picture
+                            source(type="image/webp" srcset="/static/img/rental-gunM.webp")
+                            source(type="image/png" srcset="/static/img/rental-gunM.png")
+                            img(src="../static/img/rental-gunM.png" alt="cant load photo")
+                    div.rental-Containers
+                        div.rental-Containers-img
+                            picture
+                                source(type="image/webp" srcset="/static/img/rental-Containers1.webp")
+                                source(type="image/png" srcset="/static/img/rental-Containers1.png")
+                                img(src="../static/img/rental-Containers1.png" alt="cant load photo")
+                        p#cont-heading AFFORDABLE PRICING
+                        p Don’t buy - rent Lesser Tag Source has quality products at a price that won’t break the bank
+                        a(href='#clientAndForm') PRICING
+                    div.rental-Containers
+                        div.rental-Containers-img
+                            picture
+                                source(type="image/webp" srcset="/static/img/rental-Containers2.webp")
+                                source(type="image/png" srcset="/static/img/rental-Containers2.png")
+                                img(src="../static/img/rental-Containers2.png" alt="cant load photo")
+                        p#cont-heading YOUR TURF, YOUR TERMS
+                        p No need to travel in order to enjoy Lasser Tag. We ship the adventure straight to your door step. This means your terrain, your games, and your rules
+                        a(href='#clientAndForm') PRICING
+                    div.rental-Containers
+                        div.rental-Containers-img
+                            picture
+                                source(type="image/webp" srcset="/static/img/rental-Containers3.webp")
+                                source(type="image/png" srcset="/static/img/rental-Containers3.png")
+                                img(src="../static/img/rental-Containers3.png" alt="cant load photo")
+                        p#cont-heading COUSTOM ORDER
+                        p No need to travel in order to enjoy Lasser Tag. We ship the adventure straight to your door step. This means your terrain, your games, and your rules
+                        a(href='#clientAndForm') PRICING
+
+            div#process
+                h1 OUR 
+                    span#green PROCESS
+
+                div#process1 
+                    div#process-num1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-num1.webp")
+                            source(type="image/png" srcset="/static/img/process-num1.png")
+                            img(src="../static/img/process-num1.png" alt="cant load photo")
+                    div.process-text
+                        h5 THROW A PARTY
+                        p No matter where in the country you are located find a great reason to throw a party!
+                    div.process-bg1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-bg1.webp")
+                            source(type="image/png" srcset="/static/img/process-bg1.png")
+                            img(src="../static/img/process-bg1.png" alt="cant load photo")
+
+                div#process2 
+                    div#process-num2
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-num2.webp")
+                            source(type="image/png" srcset="/static/img/process-num2.png")
+                            img(src="../static/img/process-num2.png" alt="cant load photo")
+                    div.process-bg1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-bg2.webp")
+                            source(type="image/png" srcset="/static/img/process-bg2.png")
+                            img(src="../static/img/process-bg2.png" alt="cant load photo")
+                    div.process-text
+                        h5 FIND OUR HOME ON THE WEB 
+                        p @ WWW.lasertagsource.com and browse our individual guns and packages. Place and pay for your reservation!
+
+                div#process3
+                    div#process-num3
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-num3.webp")
+                            source(type="image/png" srcset="/static/img/process-num3.png")
+                            img(src="../static/img/process-num3.png" alt="cant load photo")
+                    div.process-text
+                        h5 OUR WAREHOUSE
+                        p Our warehouse tests and lovingly packages up your order. We even throw in bounuses like batteries and a screwdriver ,if we know what kind of event you are hosting
+                    div.process-bg1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-bg3.webp")
+                            source(type="image/png" srcset="/static/img/process-bg3.png")
+                            img(src="../static/img/process-bg3.png" alt="cant load photo")
+                    div#process-bgM1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-bgM3.webp")
+                            source(type="image/png" srcset="/static/img/process-bgM3.png")
+                            img(src="../static/img/process-bgM3.png" alt="cant load photo")
+
+                div#process4
+                    div#process-num4
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-num4.webp")
+                            source(type="image/png" srcset="/static/img/process-num4.png")
+                            img(src="../static/img/process-num4.png" alt="cant load photo")
+                    div.process-bg1
+                        picture
+                            source(type="image/webp" srcset="/static/img/process-bg4.webp")
+                            source(type="image/png" srcset="/static/img/process-bg4.png")
+                            img(src="../static/img/process-bg4.png" alt="cant load photo")
+                    div.process-text
+                        h5 DELIVER AT YOUR DOR STEP
+                        p Thanks to the folks at UPS the equipement shows up on your doorstep 1-2 days prior to your event. Pull everythings out of that box! Play with it ! Be sure to keep that bubble wrap & packaging for the return trip
+
+
+            div#equipment
+                h1 OUR 
+                    span#green EQUIPMENT
+
+                div#equipment-containers
+                    div#eq-row1
+                        div.eq-container#eq1
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq1.webp")
+                                source(type="image/png" srcset="/static/img/eq1.png")
+                                img(src="../static/img/eq1.png" alt="cant load photo")
+                            p BRX
+                        div.eq-container#eq2
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq2.webp")
+                                source(type="image/png" srcset="/static/img/eq2.png")
+                                img(src="../static/img/eq2.png" alt="cant load photo")
+                            p BATTLE TAG 
+                        div.eq-container#eq3
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq3.webp")
+                                source(type="image/png" srcset="/static/img/eq3.png")
+                                img(src="../static/img/eq3.png" alt="cant load photo")
+                            p SPEAKERS
+                    div#eq-row2
+                        div.eq-container#eq4
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq4.webp")
+                                source(type="image/png" srcset="/static/img/eq4.png")
+                                img(src="../static/img/eq4.png" alt="cant load photo")
+                            p PARTY 
+                                span#green LIGHT
+                        div.eq-container#eq5
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq5.webp")
+                                source(type="image/png" srcset="/static/img/eq5.png")
+                                img(src="../static/img/eq5.png" alt="cant load photo")
+                            p BUNKER
+                        div.eq-container#eq6
+                            picture
+                                source(type="image/webp" srcset="/static/img/eq6.webp")
+                                source(type="image/png" srcset="/static/img/eq6.png")
+                                img(src="../static/img/eq6.png" alt="cant load photo")
+                            p SCORING 
+                                span#green SYSTEM
+
+            div#knowMore
+                div#knowMore-bg
+                    picture
+                        source(type="image/webp" srcset="/static/img/knowMore-bg.webp")
+                        source(type="image/png" srcset="/static/img/knowMore-bg.png")
+                        img(src="../static/img/knowMore-bg.png" alt="cant load photo")
+                div#knowMore-content
+                    div#knowMore-content-img
+                        picture
+                            source(type="image/webp" srcset="/static/img/laserKid.webp")
+                            source(type="image/png" srcset="/static/img/laserKid.png")
+                            img#laserKid(src="../static/img/laserKid.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/know-more-rental.webp")
+                            source(type="image/png" srcset="/static/img/know-more-rental.png")
+                            img#laserKidM(src="../static/img/know-more-rental.png" alt="cant load photo")
+                    div#knowMore-content-para
+                        p To know more about Lazer Crazer Laser tag Parties and our party packages, 
+                        p
+                            a(href="tel:+918840175266") call 8840175266
+                        p Are you event or a PARTY planner ? 
+                            a#green(href='#clientAndForm') Get in touch
+
+
+            div#testimonials
+                div#knowMore-blend
+                h1 TESTIMONIALS
+                div#testimonials-content
+                    div#testimonials-bg
+                        picture
+                            source(type="image/webp" srcset="/static/img/testimonials-bg.webp")
+                            source(type="image/png" srcset="/static/img/testimonials-bg.png")
+                            img(src="../static/img/testimonials-bg.png" alt="cant load photo")
+                    div#testimonials-para
+                        p OVER 1500+ 5 STAR REVIEWS ON GOOGLE.
+                        p HEAR WHAT SOME OF OUR CUSTOMERS ARE SAYING
+
+                    div#clients
+                        picture
+                            source(type="image/webp" srcset="/static/img/client1.webp")
+                            source(type="image/png" srcset="/static/img/client1.png")
+                            img(src="../static/img/client1.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/client2.webp")
+                            source(type="image/png" srcset="/static/img/client2.png")
+                            img(src="../static/img/client2.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/client3.webp")
+                            source(type="image/png" srcset="/static/img/client3.png")
+                            img(src="../static/img/client3.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/client4.webp")
+                            source(type="image/png" srcset="/static/img/client4.png")
+                            img(src="../static/img/client4.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/client5.webp")
+                            source(type="image/png" srcset="/static/img/client5.png")
+                            img(src="../static/img/client5.png" alt="cant load photo")
+                        picture
+                            source(type="image/webp" srcset="/static/img/client6.webp")
+                            source(type="image/png" srcset="/static/img/client6.png")
+                            img(src="../static/img/client6.png" alt="cant load photo")
+
+                    div#testimonials-box
+                        div#testimonials-box-content
+                            div.testimonials-scroller
+                                p We celebrated our friend's birthday birthday over here. It was an amazing experience and the hosts were extremely cordial and cheerful. Over-all, would recommend for a fun filled time in the midst of bustling Hauz khas village.
+                                p.author Ayush Agarwal, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p Worth every single penny. Extremely fun and adrenergic experience. Must try for youngsters seeking adrenaline pump. The crew is very helpful and polite.
+
+                                p.author Achint Rastogi, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p Had a very fun experience here I am not a big game fan but here the level was different, the materials provided, the atmosphere, and everything just makes the environment a whole different vibe! You must give it a try❤️❤️
+                                p.author Hibu abyang, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p Amazing experience!! This was our first time here and we had loads of fun!! ♥️😍🔥 Anyone looking out to chill and have an adventurous evening with your gang, this is the perfect place!! 😎 Overall the experience was awesome!! Would surely come here again!!
+                                p.author Christina Vasanth, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p Vikram organised it really well.  It was great fun. I had gone with the whole office team and it was worth the money spent.
+                                p.author Pranay Goel, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p Tooo much fun!! Mission based gaming is too good there. They have multiple formats with so many interesting refil packs like ( Med kit ) and all. If you are planning to do something New and energetic this is  the perfect place for you....
+                                p.author Ashish Parida, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p If you think life can't get crazier, head over to lazer crazer! The staff is really friendly and cooperative. Even if you are playing for the first time or think you are a noobie, they will make sure you understand every rule and are able to enjoy it to core. 
+                                p.author Mayank Jain, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller
+                                p One of the most exhilarating and wonderful experiences I have ever had! Truly a worth trying experience and the people who hosted us were so cool and accommodating.
+                                p.author Aditee Mishra, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+
+                div#testimonials-content2
+                    div#stars2
+                        img(src="../static/img/stars2.png" alt="cant load photo")
+                    div#testimonials-bg2
+                        div#testimonials-para2
+                            p OVER 1000+ 5 STAR REVIEWS ON GOOGLE.
+                        picture
+                            source(type="image/webp" srcset="/static/img/testimonials-bg2.webp")
+                            source(type="image/png" srcset="/static/img/testimonials-bg2.png")
+                            img(src="../static/img/testimonials-bg2.png" alt="cant load photo")
+
+                        p#trusted TRUSTED BY
+
+                        div#clients2
+                            div.clients-container
+                                img(src="../static/img/client1.png" alt="cant load photo")
+                                img(src="../static/img/client2.png" alt="cant load photo")
+                                img(src="../static/img/client3.png" alt="cant load photo")
+                            div.clients-container
+                                img(src="../static/img/client4.png" alt="cant load photo")
+                                img(src="../static/img/client5.png" alt="cant load photo")
+                                img(src="../static/img/client6.png" alt="cant load photo")
+
+                    div#testimonials-box2
+                        div#testimonials-box-content2
+                            div.testimonials-scroller2
+                                p We celebrated our friend's birthday birthday over here. It was an amazing experience and the hosts were extremely cordial and cheerful. Over-all, would recommend for a fun filled time in the midst of bustling Hauz khas village.
+                                p.author Ayush Agarwal, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p Worth every single penny. Extremely fun and adrenergic experience. Must try for youngsters seeking adrenaline pump. The crew is very helpful and polite.
+                                p.author Achint Rastogi, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p Had a very fun experience here I am not a big game fan but here the level was different, the materials provided, the atmosphere, and everything just makes the environment a whole different vibe! You must give it a try❤️❤️
+                                p.author Hibu abyang, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p Amazing experience!! This was our first time here and we had loads of fun!! ♥️😍🔥 Anyone looking out to chill and have an adventurous evening with your gang, this is the perfect place!! 😎 Overall the experience was awesome!! Would surely come here again!!
+                                p.author Christina Vasanth, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p Vikram organised it really well.  It was great fun. I had gone with the whole office team and it was worth the money spent.
+                                p.author Pranay Goel, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p Tooo much fun!! Mission based gaming is too good there. They have multiple formats with so many interesting refil packs like ( Med kit ) and all. If you are planning to do something New and energetic this is  the perfect place for you....
+                                p.author Ashish Parida, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p If you think life can't get crazier, head over to lazer crazer! The staff is really friendly and cooperative. Even if you are playing for the first time or think you are a noobie, they will make sure you understand every rule and are able to enjoy it to core. 
+                                p.author Mayank Jain, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                            div.testimonials-scroller2
+                                p One of the most exhilarating and wonderful experiences I have ever had! Truly a worth trying experience and the people who hosted us were so cool and accommodating.
+                                p.author Aditee Mishra, 
+                                div#review-stars
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+                                    img.stars(src="../static/img/star.png" alt="cant load photo")
+
+
+            div#clientAndForm
+
+                div#contact-form
+                    form#contactForm
+                        p GET IN TOUCH WITH US
+                        div#row1
+                            input(type="text" name="name" id='name' Class="myInput" placeholder="Your Name" required)
+
+                            input(type="tel" value='+91' name="phone" id='phone' Class="myInput" placeholder="Phone" minlength="13" maxlength="13" pattern="['+']{1}[1-9]{3}[0-9]{9}" title='Enter a valid 10-digit number' required)
+
+                            input(type="email" name="email" id='email' Class="myInput" placeholder="Email" required)
+                        div#row2
+                            textarea.textarea.myInput(name="message" id='message' cols="30" rows="10" placeholder="Send Comments")
+                        div#btn-container
+                            button(type="submit")#sendRequest SEND REQUEST
+
+
+            footer#footer            
+                div#footer-design
+                    img(src="../static/img/footer-design.png" alt="cant load photo")
+                div#footer-design-right
+                    img(src="../static/img/footer-design-right.png" alt="cant load photo")
+                div#footer-design2
+                    img(src="../static/img/footer-design2.png" alt="cant load photo")
+                div#footer-content
+                    div#brand-section
+                        div#brand-logo
+                            img(src="../static/img/footer-logo.png" alt="cant load photo")
+                        p DELHI’S LARGEST AND TOP RATED LASER TAG ARENA IN HAUZ KHAS VILLAGE
+                    div#mid-section
+                        p Lazer Crazer Laser Tag
+                        div#pixy Website by 
+                            a(href='https://pixysquare.com/' target='_blank')  www.pixysquare.com 
+                                div (click & connect)
+                        div#social-icons
+                            a(href='https://www.facebook.com/lazercrazer1' target='_blank')
+                                img(src="../static/img/fb.png" alt="cant load photo")
+                            a(href='https://www.instagram.com/lazercrazer/' target='_blank')
+                                img(src="../static/img/insta.png" alt="cant load photo")
+                            a(href='https://www.youtube.com/@lazercrazer4544' target='_blank')
+                                img(src="../static/img/youtube.png" alt="cant load photo")
+                    div#contact-section
+                        div#address
+                            img(src="../static/img/location.png" alt="cant load photo")
+                            a(href='https://goo.gl/maps/3E7CiTjJRayBFssh7' target='_blank') 1A Hauz khas village, New delhi, india, 110016
+                        div#mobile
+                            img(src="../static/img/phone.png" alt="cant load photo")
+                            p +91 8840175266/ 9971385510
+                        div#mail
+                            img(src="../static/img/envelope.png" alt="cant load photo")
+                            p Contact@lazercrazer.in
+
+            div#copyright
+                p Copyright © 2022 Lazer Crazer. All rights reserved / 
+                    a(href='/privacy') Privacy Policy 
+
+            div#loading
+                div#loading-design1
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design1.webp")
+                        source(type="image/png" srcset="/static/img/loading-design1.png")
+                        img(src="../static/img/loading-design1.png" alt="cant load photo")
+
+                div#loading-planet
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-planet.webp")
+                        source(type="image/png" srcset="/static/img/loading-planet.png")
+                        img(src="../static/img/loading-planet.png" alt="cant load photo")
+                div#progressBar
+                    div#progress
+                    div#progress-perc 0%
+
+                div#loading-design2
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design2.webp")
+                        source(type="image/png" srcset="/static/img/loading-design2.png")
+                        img(src="../static/img/loading-design2.png" alt="cant load photo")
+
+            a(href='https://wa.me/918840175266?text=Hello')#whatsapp-icon
+                svg(xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon")
+                    path(d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd")
+                p#message-us Message Us
+
+
+            block scripts
+                script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+                script(src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js' integrity='sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==' crossorigin='anonymous' referrerpolicy='no-referrer')
+                script 
+                    include ../static/script.js
+                    include ../static/rental.js

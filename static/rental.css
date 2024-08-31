@@ -1,0 +1,903 @@
+#rental-banner {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #010B32 0%, #010827 100%);
+}
+
+#rental-bg {
+    position: absolute;
+    bottom: -16%;
+}
+
+#rental-bgM {
+    display: none;
+}
+
+#rental-bg img {
+    height: 100%;
+    width: 100%;
+}
+
+#rental-content {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    position: absolute;
+    top: 32%;
+    z-index: 10;
+    width: 100%;
+    padding: 0 30%;
+}
+
+#rental-content h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+}
+
+#rental-content h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    line-height: 129.4%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-shadow: 0px 19.8584px 23.358px rgba(255, 255, 255, 0.29);
+}
+
+#why-rental {
+    position: relative;
+    margin-top: 310px;
+}
+
+#why-rental h1 {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 215.9%;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
+#why-rental h1 #green {
+    font-family: 'potta one';
+}
+
+#rental-gun {
+    position: absolute;
+    right: 0;
+    top: -67%;
+    height: 555px;
+}
+
+#rental-gun img {
+    height: 100%;
+    width: 100%;
+}
+
+#rental-gunM {
+    display: none;
+}
+
+#why-rental-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 50px auto 0 auto;
+}
+
+.rental-Containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 20px;
+    padding: 25px 0;
+    background: #010A32;
+    width: 290px;
+    height: 380px;
+}
+
+.rental-Containers-img {
+    height: 80px;
+    width: 80px;
+}
+
+.rental-Containers-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.rental-Containers p {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: .65rem;
+    line-height: 155.9%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    margin-top: 15px;
+    padding: 0 10%;
+}
+
+.rental-Containers a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #2CF80B;
+    padding: 8px 25px;
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .7rem;
+    line-height: 129.4%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10%;
+    text-shadow: 0px 1.56957px 0.784784px rgba(0, 0, 0, 0.22), 0px 15.5846px 25.1131px #FFFFFF;
+}
+
+.rental-Containers a:hover {
+    background: #1ca607;
+}
+
+#cont-heading {
+    font-weight: 600;
+    font-size: .87rem;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    margin-top: 36px;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+
+
+#process {
+    position: relative;
+    top: 0;
+    margin-top: 100px;
+}
+
+#process h1 {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 215.9%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#process h1 #green {
+    font-family: 'Potta One';
+}
+
+#process1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010A32;
+    width: 1070px;
+    margin: 70px auto 0 auto;
+    position: relative;
+    top: 0;
+}
+
+#process-num1 {
+    position: absolute;
+    left: -2%;
+    top: -7%;
+    height: 80px;
+    width: 80px;
+}
+
+#process-num1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.process-bg1 {
+    height: 410px;
+    min-width: 620px;
+}
+
+.process-bg1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#process-bgM1 {
+    display: none;
+}
+
+.process-text {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 0 136px 0 70px;
+}
+
+.process-text h5 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 132.9%;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+    text-shadow: 3px -4px 27px rgba(44, 248, 11, 0.7);
+}
+
+.process-text p {
+    font-size: .6rem;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 155.9%;
+    letter-spacing: 0.125em;
+}
+
+#process2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010A32;
+    width: 1070px;
+    height: 410px;
+    margin: 100px auto 0 auto;
+    position: relative;
+    top: 0;
+}
+
+#process-num2 {
+    position: absolute;
+    right: -2%;
+    top: -7%;
+    height: 80px;
+    width: 80px;
+}
+
+#process-num2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#process2 .process-bg1 {
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 77px;
+    left: 22px;
+}
+
+#process2 .process-text {
+    padding: 0 118px 0 70px !important;
+}
+
+#process3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010A32;
+    width: 1070px;
+    height: 410px;
+    margin: 100px auto 0 auto;
+    position: relative;
+    top: 0;
+}
+
+#process-num3 {
+    position: absolute;
+    left: -2%;
+    top: -7%;
+    height: 80px;
+    width: 80px;
+    z-index: 1;
+}
+
+#process-num3 img {
+    height: 100%;
+    width: 100%;
+}
+
+#process3 .process-bg1 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 35px;
+}
+
+#process3 .process-text {
+    padding: 0 68% 0 70px;
+    position: absolute;
+}
+
+#process4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010A32;
+    width: 1070px;
+    height: 410px;
+    margin: 100px auto 0 auto;
+    position: relative;
+    top: 0;
+}
+
+#process-num4 {
+    position: absolute;
+    right: -2%;
+    top: -7%;
+    height: 80px;
+    width: 80px;
+    z-index: 1;
+}
+
+#process-num4 img {
+    height: 100%;
+    width: 100%;
+}
+
+#process4 .process-bg1 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+
+#process4 .process-text {
+    padding: 0 118px 0 70px;
+}
+
+#equipment {
+    position: relative;
+    top: 0;
+    margin-top: 100px;
+}
+
+#equipment h1 {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 215.9%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#equipment h1 #green {
+    font-family: 'Potta One';
+}
+
+#equipment-containers {
+    background: linear-gradient(89.66deg, #010B33 -6.35%, rgba(1, 11, 51, 0) 104.01%);
+    position: relative;
+    width: 1070px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+#eq-row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eq-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.eq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 45px;
+}
+
+.eq-container img {
+    height: 160px;
+    width: auto;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.eq-container p {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 600;
+    font-size: .93rem;
+    line-height: 137.9%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+/* KNOW MORE SECTION */
+#knowMore {
+    position: relative;
+    top: 150px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#knowMore-bg img {
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#knowMore-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#knowMore-content-img {
+    height: 817px;
+    width: auto;
+    position: absolute;
+    right: -6%;
+    bottom: 15%;
+}
+
+#knowMore-content-img img {
+    height: 100%;
+    width: 100%;
+}
+
+#knowMore-content-para p {
+    font-weight: 400;
+    font-size: .85rem;
+    line-height: 222.4%;
+    letter-spacing: -0.05em;
+    padding-left: 45px;
+    padding-top: 2px;
+}
+
+#knowMore-content-para a {
+    text-decoration: none;
+}
+
+#testimonials {
+    margin-top: 230px;
+}
+#laserKidM {
+    display: none;
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    #rental-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #rental-content h2 {
+        font-size: 1.2rem;
+    }
+
+    #rental-gun {
+        position: absolute;
+        right: 0;
+        top: -52%;
+        height: 480px;
+    }
+
+    #why-rental {
+        position: relative;
+        margin-top: 238px;
+    }
+
+}
+
+@media (min-width: 1300px) and (max-width: 1450px) {
+    #rental-gun {
+        position: absolute;
+        right: 0;
+        top: -60%;
+        height: 521px;
+    }
+
+    #why-rental {
+        position: relative;
+        margin-top: 270px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+
+
+    #rental-banner {
+        background: linear-gradient(180deg, #0E0849 0%, #010827 100%);
+        position: relative;
+    }
+
+    #rental-bgM {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+
+    #rental-bg {
+        display: none;
+    }
+
+    #rental-bgM img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #rental-content {
+        padding: 0 0 0 20px;
+        top: 24%;
+    }
+
+    #rental-content h1 {
+        text-align: start;
+        font-size: 1.8rem;
+    }
+
+    #rental-content h2 {
+        text-align: start;
+        padding: 0 77px 0 0px;
+        font-size: .95rem;
+    }
+
+
+    #why-rental-containers {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .rental-Containers {
+        margin: 26px 0;
+        width: 87%;
+    }
+
+    .rental-Containers a {
+        position: relative;
+        bottom: -16%;
+        padding: 9px 28px;
+    }
+
+    #rental-gun {
+        display: none;
+    }
+
+    #rental-gunM {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -11.5%;
+        z-index: 1;
+        width: 440px;
+        height: 857px;
+    }
+
+    #rental-gunM img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #why-rental {
+        margin-top: 73px;
+    }
+
+
+    #process1 {
+        flex-direction: column;
+        width: 326px;
+    }
+
+    #process-num1 {
+        height: 65px;
+        width: 100%;
+        position: relative;
+        top: -35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #process-num1 img {
+        height: 100%;
+        width: 65px;
+    }
+
+    .process-bg1 {
+        height: 100%;
+        width: 100% !important;
+        min-width: 100%;
+        margin-top: 30px;
+    }
+
+    .process-text {
+        padding: 0 80px 0 19px !important;
+        position: relative;
+        top: -10px;
+    }
+
+    .process-text h5 {
+        font-size: 1.15rem;
+    }
+
+    .process-text p {
+        font-size: .7rem;
+        margin-top: 33px;
+        padding-right: 30px;
+    }
+
+    #process2 {
+        flex-direction: column;
+        width: 326px;
+        height: 460px;
+    }
+
+    #process-num2 {
+        height: 65px;
+        width: 100%;
+        position: relative;
+        top: -60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #process-num2 img {
+        height: 100%;
+        width: 65px;
+    }
+
+    #process2 .process-bg1 {
+        top: 0;
+        left: 0;
+        order: 2;
+        margin-top: 50px;
+    }
+
+    #process3 {
+        flex-direction: column;
+        width: 326px;
+        height: 500px;
+        justify-content: start;
+    }
+
+    #process-num3 {
+        height: 65px;
+        width: 100%;
+        position: relative;
+        top: -40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #process-num3 img {
+        height: 100%;
+        width: 65px;
+    }
+
+    #process3 .process-text {
+        position: relative;
+        top: 0;
+        padding: 0 57px 0 19px !important;
+        z-index: 1;
+    }
+
+    #process3 .process-bg1 {
+        display: none;
+    }
+
+    #process-bgM1 {
+        display: block;
+        height: 413px;
+        position: absolute;
+        bottom: -15%;
+        width: 345px;
+        right: -3%;
+    }
+
+    #process-bgM1 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #process4 {
+        flex-direction: column;
+        width: 326px;
+        height: 100%;
+    }
+
+    #process-num4 {
+        height: 65px;
+        width: 100%;
+        position: relative;
+        top: -40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #process-num4 img {
+        height: 100%;
+        width: 65px;
+    }
+
+    #process4 .process-bg1 {
+        order: 2;
+        left: 176px;
+    }
+
+    #process4 .process-text p {
+        padding-right: 0px;
+    }
+
+    #why-rental h1 {
+        font-size: 1.7rem;
+    }
+
+    #process h1 {
+        font-size: 1.7rem;
+    }
+
+    #equipment h1 {
+        font-size: 1.7rem;
+    }
+
+    #equipment-containers {
+        background: url('../static/img/eq-stars.png') no-repeat center center/cover;
+        width: 100%;
+        padding: 0 0;
+        margin: 50px auto 0 auto;
+    }
+
+    #eq-row1 {
+        flex-direction: column;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    #eq-row2 {
+        flex-direction: column;
+        min-width: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .eq-container {
+        flex-direction: row;
+        width: 85%;
+        margin: 16px auto;
+        height: 135px;
+        justify-content: space-between;
+    }
+
+    .eq-container p {
+        font-weight: 400;
+        font-size: .88rem;
+        padding: 0 14px;
+    }
+
+    #eq1 {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background: linear-gradient(89.66deg, #010B33 -6.35%, rgba(1, 11, 51, 0) 104.01%);
+    }
+
+    #eq1 img {
+        height: 154px;
+        width: 231px;
+        margin-right: -17%;
+    }
+
+    #eq1 p {
+        margin-left: 18%;
+    }
+
+    #eq2 {
+        flex-direction: row;
+        background: linear-gradient(270deg, #010B33 -8.75%, rgba(1, 11, 51, 0) 100%);
+    }
+
+    #eq2 img {
+        height: 125px;
+        width: 187px;
+    }
+
+    #eq3 {
+        flex-direction: row-reverse;
+        background: linear-gradient(89.66deg, #010B33 -6.35%, rgba(1, 11, 51, 0) 104.01%);
+    }
+
+    #eq3 img {
+        height: 130px;
+        width: 195px;
+    }
+
+    #eq4 {
+        flex-direction: row;
+        background: linear-gradient(270deg, #010B33 -8.75%, rgba(1, 11, 51, 0) 100%);
+    }
+
+    #eq5 {
+        flex-direction: row-reverse;
+        background: linear-gradient(89.66deg, #010B33 -6.35%, rgba(1, 11, 51, 0) 104.01%);
+    }
+
+    #eq6 {
+        flex-direction: row;
+        background: linear-gradient(270deg, #010B33 -8.75%, rgba(1, 11, 51, 0) 100%);
+    }
+
+    .eq-container img {
+        height: 140px;
+        width: 210px;
+    }
+
+    #testimonials {
+        top: 126px !important;
+    }
+
+    #clientAndForm {
+        margin-top: 150px !important;
+    }
+
+    #knowMore-bg {
+        height: 200px;
+    }
+
+    #knowMore-content {
+        flex-direction: column;
+    }
+
+    #knowMore-content-img {
+        height: 232px;
+        width: 220px;
+        position: absolute;
+        left: -10%;
+        bottom: 85%;
+        z-index: -1;
+    }
+    #laserKidM {
+        display: block;
+    } 
+    #laserKid {
+        display: none;
+    } 
+
+    #knowMore-content-para {
+        position: relative;
+        top: 17%;
+    }
+
+    #knowMore-content-para p {
+        padding: 0 7px;
+        font-size: .65rem;
+    }
+
+}

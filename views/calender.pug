@@ -1,0 +1,312 @@
+doctype html
+html(lang='en' dir='ltr')
+  head
+    //- Google Tag Manager
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NZ24JXK');
+    //- End Google Tag Manager
+    
+    title Lazer Crazer booking section
+    link(rel='stylesheet' href='../static/calender components//calender.css')
+    link(rel='stylesheet' href='../static/Global_components/global.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='Lazer Crazer - Best gaming area for kids and adults')
+    // Google Font Link for Icons
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200')
+    style
+      include ../static/style.css
+    //- LINK TAGS FOR WEBSITE"S FAVICON
+    link(rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon_io/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon_io/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon_io/favicon-16x16.png")
+    link(rel="manifest" href="../static/img/favicon_io/site.webmanifest")
+    link(rel='stylesheet' media='screen and (max-width: 1000px)' href='../static/responsive.css')
+    script(src='../static/calender components/calender.js' defer='')
+    script(src='../static/Global_components/global.js' defer='')
+  body
+    //- Google Tag Manager (noscript)
+    noscript
+      iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-NZ24JXK' height='0' width='0' style='display:none;visibility:hidden')
+    //- End Google Tag Manager (noscript)
+    div#navbar
+      div#ul1-wrapper
+        ul#ul1
+          li #[a(href='/') HOME]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/event') EVENT]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/franchise') FRANCHISE]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+      #nav-logo
+        picture
+          source(type="image/webp" srcset="/static/img/logo-background.webp")
+          source(type="image/png" srcset="/static/img/logo-background.png")
+          img#logo-background(src="../static/img/logo-background.png" alt="cant load photo")
+        a(href='/')
+          picture
+            source(type="image/webp" srcset="/static/img/logo.webp")
+            source(type="image/png" srcset="/static/img/logo.png")
+            img#main-logo(src="../static/img/logo.png" alt="cant load photo")
+      div#ul2-wrapper
+        ul#ul2 
+          li #[a(href='/rental') RENTING]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/activities') ACTIVITIES]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/calender') BOOKING]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#home-navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+      div#nav-planet 
+        picture
+          source(type="image/webp" srcset="/static/img/nav-planet.webp")
+          source(type="image/png" srcset="/static/img/nav-planet.png")
+          img(src="../static/img/nav-planet.png" alt="cant load photo")
+    div#mobile-navbar
+      div#visible-navbar
+        a#mobile-logo(href='/')
+          picture
+            source(type="image/webp" srcset="/static/img/logo.webp")
+            source(type="image/png" srcset="/static/img/logo.png")
+            img(src="../static/img/logo.png" alt="cant load photo")
+        div#hamburger-icon
+          span.bar
+          span.bar
+          span.bar
+      div#nav-items
+        ul 
+          li#home #[a(href='/') HOME]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/event') EVENT]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/franchise') FRANCHISE] 
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/rental') RENTING]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/activities') ACTIVITIES]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+          li #[a(href='/calender') BOOKING]
+            picture
+              source(type="image/webp" srcset="/static/img/home-navigator.webp")
+              source(type="image/png" srcset="/static/img/home-navigator.png")
+              img#navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+        div#nav-lightining1
+          img(src="../static/img/nav-lightining1.png" alt="cant load photo")
+        div#nav-lightining2
+          img(src="../static/img/nav-lightining2.png" alt="cant load photo")
+        div#nav-bottom-tower
+          img(src="../static/img/nav-bottom-tower.png" alt="cant load photo")
+        div#navM-planet1
+          picture
+            source(type="image/webp" srcset="/static/img/navM-planet.webp")
+            source(type="image/png" srcset="/static/img/navM-planet.png")
+            img(src="../static/img/navM-planet.png" alt="cant load photo")
+    div#planet-container
+      div#booking-planet
+        img(src="../static/img/booking-planet.png" alt="cant load photo")
+    div#booking
+      .booking-heading
+        h1#green BOOKING
+        h2 BOOK NOW AND PAY AT THE VISIT
+      .wholebookingsection
+        .booking-bg
+          picture
+            source(type="image/webp" srcset="/static/img/booking-bg.webp")
+            source(type="image/png" srcset="/static/img/booking-bg.png")
+            img(src="../static/img/booking-bg.png" alt="cant load photo")
+        .booking-bgM
+          picture
+            source(type="image/webp" srcset="/static/img/booking-bgM.webp")
+            source(type="image/png" srcset="/static/img/booking-bgM.png")
+            img(src="../static/img/booking-bgM.png" alt="cant load photo")
+        .bookingsection
+          .mainsection
+            .submainsection
+              .numbersection
+                .textsection
+                  | Select Number of People
+                .adder
+                  .leftadder
+                    | -
+                  .middlesection
+                    | 1
+                  .rightadder
+                    | +
+              .calendersection
+                .calendertext
+                  | Select Date
+                .maincalendercomponent
+                  .wrapper
+                    header
+                      .icons
+                        span#prev.material-symbols-rounded chevron_left
+                      .dateheading
+                        p.current-date
+                      .icons
+                        span#next.material-symbols-rounded chevron_right
+                    .calendar
+                      ul.weeks
+                        li Sun
+                        li Mon
+                        li Tue
+                        li Wed
+                        li Thu
+                        li Fri
+                        li Sat
+                      ul.days
+              .bottomsection
+                .slotsection
+                  .slottext
+                    | Select the available Slots
+                  .slotlist
+                    | No slots Available
+                .submitsection
+                  .submitsectiontext
+                    | CONTINUE
+    .popupsection
+      .popupsubsection
+        .innerpopup
+          .popuptext
+            | Fill In The Form To Reserve Your Slot
+          .popupsubmitsection
+            form#contactFormB
+              .popupsections
+                span.details Your Name
+                input(type='text' id='name' required)
+              .popupsections
+                span.details Mobile No
+                input(type="tel" value='+91' name="phone" id='phone' Class="myInput" placeholder="Phone" minlength="13" maxlength="13" pattern="['+']{1}[1-9]{3}[0-9]{9}" title='Enter a valid 10-digit number' required)
+              .popupsections
+                span.details Package
+                select#package(name='Packages')
+                  option(value='LASER TAG ON THE GO') LASER TAG ON THE GO
+                  option(value='BASIC MODE') BASIC MODE
+                  option(value='MULTI-LEVEL') MULTI-LEVEL
+                  option(value='SPECIAL EDITION') SPECIAL EDITION
+              .popupsections
+                span.details Email
+                input(type='email' id='email' required)
+          .popupsubmit
+            input(type='Submit' id='sendRequest2')
+            #cancel
+              | Cancel
+    div#contact-sectionB
+      div#box-container
+        div.contact-content
+          picture
+            source(type="image/webp" srcset="/static/img/booking-loc.webp")
+            source(type="image/png" srcset="/static/img/booking-loc.png")
+            img(src="../static/img/booking-loc.png" alt="cant load photo")
+          a(href='https://goo.gl/maps/3E7CiTjJRayBFssh7' target='_blank') 1A Hauz khas village, New delhi, india, 110016
+        div.contact-content
+          picture
+            source(type="image/webp" srcset="/static/img/booking-message.webp")
+            source(type="image/png" srcset="/static/img/booking-message.png")
+            img(src="../static/img/booking-message.png" alt="cant load photo")
+          p Contact@lazercrazer.in
+        div.contact-content
+          picture
+            source(type="image/webp" srcset="/static/img/booking-call.webp")
+            source(type="image/png" srcset="/static/img/booking-call.png")
+            img(src="../static/img/booking-call.png" alt="cant load photo")
+          p +91 8840175266/ 9971385510
+    footer#footer            
+      div#footer-design
+        img(src="../static/img/footer-design.png" alt="cant load photo")
+      div#footer-design-right
+        img(src="../static/img/footer-design-right.png" alt="cant load photo")
+      div#footer-design2
+        img(src="../static/img/footer-design2.png" alt="cant load photo")
+      div#footer-content
+        div#brand-section
+          div#brand-logo
+            img(src="../static/img/footer-logo.png" alt="cant load photo")
+          p DELHI’S LARGEST AND TOP RATED LASER TAG ARENA IN HAUZ KHAS VILLAGE
+        div#mid-section
+          p Lazer Crazer Laser Tag
+          div#pixy Website by 
+            a(href='https://pixysquare.com/' target='_blank')  www.pixysquare.com 
+              div (click & connect)
+          div#social-icons
+            a(href='https://www.facebook.com/lazercrazer1' target='_blank')
+              img(src="../static/img/fb.png" alt="cant load photo")
+            a(href='https://www.instagram.com/lazercrazer/' target='_blank')
+              img(src="../static/img/insta.png" alt="cant load photo")
+            a(href='https://www.youtube.com/@lazercrazer4544' target='_blank')
+              img(src="../static/img/youtube.png" alt="cant load photo")
+        div#contact-section
+          div#address
+            img(src="../static/img/location.png" alt="cant load photo")
+            a(href='https://goo.gl/maps/3E7CiTjJRayBFssh7' target='_blank') 1A Hauz khas village, New delhi, india, 110016
+          div#mobile
+            img(src="../static/img/phone.png" alt="cant load photo")
+            p +91 8840175266/ 9971385510
+          div#mail
+            img(src="../static/img/envelope.png" alt="cant load photo")
+            p Contact@lazercrazer.in
+    div#copyright
+      p Copyright © 2022 Lazer Crazer. All rights reserved / 
+        a(href='/privacy') Privacy Policy 
+    div#loading
+      div#loading-design1
+        picture
+          source(type="image/webp" srcset="/static/img/loading-design1.webp")
+          source(type="image/png" srcset="/static/img/loading-design1.png")
+          img(src="../static/img/loading-design1.png" alt="cant load photo")
+      div#loading-planet
+        picture
+          source(type="image/webp" srcset="/static/img/loading-planet.webp")
+          source(type="image/png" srcset="/static/img/loading-planet.png")
+          img(src="../static/img/loading-planet.png" alt="cant load photo")
+      div#progressBar
+        div#progress
+        div#progress-perc 0%
+      div#loading-design2
+        picture
+          source(type="image/webp" srcset="/static/img/loading-design2.webp")
+          source(type="image/png" srcset="/static/img/loading-design2.png")
+          img(src="../static/img/loading-design2.png" alt="cant load photo")
+    a(href='https://wa.me/918840175266?text=Hello')#whatsapp-icon
+      svg(xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon")
+        path(d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd")
+      p#message-us Message Us
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+    script 
+      include ../static/script.js

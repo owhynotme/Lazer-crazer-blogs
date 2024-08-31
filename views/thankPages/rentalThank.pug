@@ -1,0 +1,114 @@
+doctype html 
+html 
+    head
+        //- Google Tag Manager
+        script.
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NZ24JXK');
+        //- End Google Tag Manager
+        title Lazer Crazer
+        block style
+        style
+            include ../../static/style.css
+            include ../../static/thank.css
+        meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+
+        //- LINK TAGS FOR WEBSITE"S FAVICON
+        link(rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon_io/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon_io/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon_io/favicon-16x16.png")
+        link(rel="manifest" href="../static/img/favicon_io/site.webmanifest")
+
+        link(rel='stylesheet' media='screen and (max-width: 1000px)' href='../static/responsive.css')
+    block content 
+        body 
+            //- Google Tag Manager (noscript)
+            noscript
+                iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-NZ24JXK' height='0' width='0' style='display:none;visibility:hidden')
+            //- End Google Tag Manager (noscript)
+
+            div#loading2
+                div#thank-design1
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design1.webp")
+                        source(type="image/png" srcset="/static/img/loading-design1.png")
+                        img(src="../static/img/loading-design1.png" alt="")
+
+                div#thank-planet
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-planet.webp")
+                        source(type="image/png" srcset="/static/img/loading-planet.png")
+                        img(src="../static/img/loading-planet.png" alt="")
+                div#thank-heading
+                    h1#green THANK YOU  !
+                    div#thank-para
+                        p Your message has been received,
+                        p will update you shortly.
+                    a(href='/')#green Back To Home &#8594;
+
+                div#thank-design2
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design2.webp")
+                        source(type="image/png" srcset="/static/img/loading-design2.png")
+                        img(src="../static/img/loading-design2.png" alt="")
+
+
+            //- Loading 
+            div#loading
+                div#loading-design1
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design1.webp")
+                        source(type="image/png" srcset="/static/img/loading-design1.png")
+                        img(src="../static/img/loading-design1.png" alt="")
+
+                div#loading-planet
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-planet.webp")
+                        source(type="image/png" srcset="/static/img/loading-planet.png")
+                        img(src="../static/img/loading-planet.png" alt="")
+                div#progressBar
+                    div#progress
+                    div#progress-perc 0%
+
+                div#loading-design2
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design2.webp")
+                        source(type="image/png" srcset="/static/img/loading-design2.png")
+                        img(src="../static/img/loading-design2.png" alt="")
+
+            block scripts
+                script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+
+                script(type='text/javascript').
+                    $(window).on("load", function () {
+                        move();
+                        $("#loading").delay(1000).fadeOut(800);
+                        $("#logo-background").addClass('active');
+                        $("#arrow1").addClass('active');
+                        $("#arrow2").addClass('active');
+                        $("#arrow3").addClass('active');
+                    });
+
+                    var i = 0;
+                    function move() {
+                        if (i == 0) {
+                            i = 1;
+                            var elem = document.getElementById("progress");
+                            var perc = document.getElementById("progress-perc");
+                            var width = 10;
+                            var id = setInterval(frame, 10);
+                            function frame() {
+                                if (width >= 100) {
+                                    clearInterval(id);
+                                    i = 0;
+                                } else {
+                                    width++;
+                                    elem.style.width = width + "%";
+                                    perc.innerHTML = width + "%";
+                                }
+                            }
+                        }
+                    }

@@ -1,0 +1,603 @@
+doctype html 
+html(lang="en")
+    head
+        //- Google Tag Manager
+        script.
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NZ24JXK');
+        //- End Google Tag Manager
+        title Lazer Crazer
+        link(rel='preconnect' href="https://www.facebook.com")
+        link(rel='preconnect' href="https://connect.facebook.net")
+        link(rel='preconnect' href="https://www.googletagmanager.com")
+        link(rel='preconnect' href="https://fonts.gstatic.com")
+        block style
+        style
+            include ../static/style.min.css
+            include ../static/blogs2.css
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description', content='Lazer Crazer - Best gaming area for kids and adults')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        //- LINK TAGS FOR WEBSITE"S FAVICON
+        link(rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon_io/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon_io/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon_io/favicon-16x16.png")
+        link(rel="manifest" href="../static/img/favicon_io/site.webmanifest")
+        link(rel='stylesheet' media='screen and (max-width: 1000px)' href='../static/responsive.min.css')
+    block content 
+        body 
+            //- Google Tag Manager (noscript)
+            noscript
+                iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-NZ24JXK' height='0' width='0' style='display:none;visibility:hidden')
+            //- End Google Tag Manager (noscript)
+            div#navbar
+                div#ul1-wrapper
+                    ul#ul1
+                        li #[a(href='/') HOME]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                #nav-logo
+                    picture
+                        source(type="image/webp" srcset="/static/img/logo-background.webp")
+                        source(type="image/png" srcset="/static/img/logo-background.png")
+                        img#logo-background(src="../static/img/logo-background.png" alt="cant load photo")
+                    a(href='/')
+                        picture
+                            source(type="image/webp" srcset="/static/img/logo.webp")
+                            source(type="image/png" srcset="/static/img/logo.png")
+                            img#main-logo(src="../static/img/logo.png" alt="cant load photo")
+                div#ul2-wrapper
+                    ul#ul2 
+                        li #[a(href='/rental') RENTING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                div#nav-planet 
+                    picture
+                        source(type="image/webp" srcset="/static/img/nav-planet.webp")
+                        source(type="image/png" srcset="/static/img/nav-planet.png")
+                        img(src="../static/img/nav-planet.png" alt="cant load photo")
+
+            div#mobile-navbar
+                div#visible-navbar
+                    a#mobile-logo(href='/')
+                        picture
+                            source(type="image/webp" srcset="/static/img/logo.webp")
+                            source(type="image/png" srcset="/static/img/logo.png")
+                            img(src="../static/img/logo.png" alt="cant load photo")
+                    div#hamburger-icon
+                        span.bar
+                        span.bar
+                        span.bar
+                div#nav-items
+                    ul 
+                        li#home #[a(href='/') HOME]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE] 
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/rental') RENTING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+
+
+            div#blogs-up
+            //- div#homebanner
+            h1#heading1 LASER TAG PARTY
+            div#headmob
+                h3 HOW TO PLAY <br> LASER TAG
+                h2 HOW TO ENJOY LASER <br> TAG TO THE FULLEST
+            //- h3(style="color:white") Hello
+            div#check
+                div.checks
+                    h3 Why are Laser Tag Parties More Fun Regular Normal Parties? 
+                div.checks
+                    h3 FUN THINGS TO DO AT A LASER TAG PARTY
+                div.checks
+                    h3 HOW DOES LAZER CRAZER HOST LASER TAG PARTIES
+            div#blogs
+                div#howto-flex
+                    div#howto-flex1 
+                        h3.howtoH.flex1H Why are Laser Tag Parties More Fun Regular Normal Parties? 
+                    div#howto-flex2
+                        h3.howtoH.flex2H FUN THINGS TO DO AT A LASER TAG PARTY
+                    div#howto-flex3
+                        h3.howtoH.flex3H HOW DOES LAZER CRAZER HOST LASER TAG PARTIES
+
+
+                div#playpara
+                    div#playpara1
+                        //- h3.playparaH How to Play Laser Tag
+                        p.playparaP Laser tag is a fun and exciting activity that is perfect for all ages. It is a game where players use laser tag guns to tag each other. Laser tag guns emit a harmless infrared beam that is detected by sensors on the players' vests. When a player is tagged, their vest will vibrate and light up.
+                    div#playpara2
+                        //- h3.playparaH What is laser tag?
+                        p.playparaPunique Why are Laser Tag Parties More Fun Regular Normal Parties? 
+                    div#playpara3
+                        //- h3.playparaH How does laser tag work?
+                        p.playparaP Laser tag parties are more fun than regular parties because they offer a unique and exciting experience. Laser tag is a great way to get exercise, have fun, and bond with friends and family. Laser tag is also a great way to celebrate special occasions, such as birthdays, graduations, and team-building events.  
+
+            div#howtoplay
+                div.howtoplayhead
+                    h2 Fun Things to Do at a Laser Tag Party
+                    //- p The basic rules of laser tag are simple:
+                
+                div.playdivs
+                    div.playdivimg1
+
+                    div.playcontent
+                        h3 Play different game modes: 
+                        
+                        p When choosing game modes for your laser tag party, consider the age and skill level of your guests. If you have a group of young children, you may want to choose simpler game modes, such as team deathmatch or free-for-all. For older children and adults, you can choose more complex game modes, such as capture the flag or VIP protection. Here are some specific game mode ideas that are perfect for laser tag parties:
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p
+                                span(style="color: #2CF70B;") Team deathmatch: 
+                                | This is the most basic game mode, where two teams compete to eliminate each other.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p
+                                span(style="color: #2CF70B;") Capture the flag: 
+                                | In this game mode, each team has a flag that they need to protect and capture the other team's flag.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p
+                                span(style="color: #2CF70B;") VIP protection: 
+                                | In this game mode, one team is tasked with protecting a VIP, while the other team tries to eliminate the VIP.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p
+                                span(style="color: #2CF70B;") Infection: 
+                                | In this game mode, one player is infected and tries to tag the other players. When a player is tagged, they become infected. The game ends when all players are infected, or when the time runs out.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p
+                                span(style="color: #2CF70B;") Elimination: 
+                                | In this game mode, players are eliminated when they are tagged. The last player remaining wins the game.<br> Have a laser tag tournament
+                        <br>
+                        p(style="text-align:center") A laser tag tournament is a great way to add some competition to your party. Divide your guests into teams and let them battle it out for the championship. You can either have a single-elimination tournament or a round-robin tournament.
+
+                    div.playdivimg2
+
+                    div.playcontent
+                        h3 Here are some tips for hosting a laser tag tournament:
+                        
+                        div.bulletcon
+                            div.bullet-item
+                            p Divide your guests into teams of equal size.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Choose a game mode that is appropriate for the age and skill level of your guests.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Keep track of the scores and announce the winners at the end of the tournament.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Have prizes for the winning team(s).
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Take breaks to refuel and socialize
+                        <br>
+                        p Laser tag is a lot of fun, but it can also be tiring. Be sure to take breaks throughout the party so that your guests can refuel and socialize. You can provide food and drinks for your guests, or you can have them bring their own. You may also want to set up a table and chairs where guests can relax and socialize during breaks.
+
+            div#howtoplay2
+                
+                div.playdivs
+                    div.playdivimg3
+
+                    div.playcontent
+                        h3 Here are some tips for providing food and drinks at your laser tag party:
+                        
+                        div.bulletcon
+                            div.bullet-item
+                            p Choose foods and drinks that are easy to eat and drink while standing up.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Have a variety of food and drinks available to accommodate different dietary restrictions.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Keep the food and drinks in a central location so that guests can easily access them.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Provide plenty of napkins and trash cans.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Take lots of pictures and videos.
+                        <br>
+
+                    div.playdivimg4
+
+                    div.playcontent
+                        h3 What can make your laser tag party more happening?
+                        
+                        div.bulletcon
+                            div.bullet-item
+                            p Choose a date and time that works for your guests. Keep in mind that laser tag arenas can get busy, so it is important to book your party in advance.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Send out invitations early. This will give your guests plenty of time to RSVP and make arrangements.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Decorate the party area. You can use laser tag-themed decorations, such as balloons, streamers, and banners.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Have a plan for food and drinks. You can either cater the party or provide your own food and drinks.
+                        <br>
+                        div.bulletcon
+                            div.bullet-item
+                            p Create a playlist of energetic music. This will help to get your guests pumped up for some laser tag action.
+                        <br>
+                        p Assign a party host. This person will be responsible for making sure that everything runs smoothly and that your guests have a great time.
+
+            div#extrastars
+
+            div#tipstricks                 
+                
+                div#tips
+                    h3 How Does Lazer Crazer Host Laser Tag Parties?
+
+                    <br>
+
+                div#tipsbottom
+                    p Lazer crazer hosts laser tag parties at the arena itself, and also allows you to choose a venue to host the party. Planning a party is not easy, but lazer crazer makes it easier by saving you from all the hassle. All you have to do is let us know the date, time, and number of guests, and Laser Crazer will host the best laser tag party for you. You won’t have to worry about a single thing, from necessary equipment, including laser tag guns, vests, to scoreboards, we’ve got you covered.
+                    <br>
+                    p Ready to book a laser tag party for your next special occasion? Contact Lazer Crazer today and let us take care of the rest!
+
+            h3.howtoplayheading How to play laser tag ?
+            //- div#howtoplayabovemob
+            //-     p The basic rules of laser <br> tag are simple:
+
+            div#howtoplaymob
+                div.playdivimg1mob
+
+                div.playcontentmob
+                        h3 Play different game modes: 
+                        p(style="padding-bottom:5%") When choosing game modes for your laser tag party, consider the age and skill level of your guests. If you have a group of young children, you may want to choose simpler game modes, such as team deathmatch or free-for-all. For older children and adults, you can choose more complex game modes, such as capture the flag or VIP protection. Here are some specific game mode ideas that are perfect for laser tag parties:
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p
+                                span(style="color: #2CF70B;") Team deathmatch: 
+                                | This is the most basic game mode, where two teams compete to eliminate each other.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p
+                                span(style="color: #2CF70B;") Capture the flag: 
+                                | In this game mode, each team has a flag that they need to protect and capture the other team's flag.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p
+                                span(style="color: #2CF70B;") VIP protection: 
+                                | In this game mode, one team is tasked with protecting a VIP, while the other team tries to eliminate the VIP.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p
+                                span(style="color: #2CF70B;") Infection: 
+                                | In this game mode, one player is infected and tries to tag the other players. When a player is tagged, they become infected. The game ends when all players are infected, or when the time runs out.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p
+                                span(style="color: #2CF70B;") Elimination: 
+                                | In this game mode, players are eliminated when they are tagged. The last player remaining wins the game. <br> Have a laser tag tournament
+
+                        p(style="padding:10% 0") A laser tag tournament is a great way to add some competition to your party. Divide your guests into teams and let them battle it out for the championship. You can either have a single-elimination tournament or a round-robin tournament.
+
+                div.playdivimg2mob
+
+                div.playcontentmob
+                        h3 Here are some tips for hosting a laser tag tournament:
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Divide your guests into teams of equal size.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Choose a game mode that is appropriate for the age and skill level of your guests.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Set a time limit for each match.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Keep track of the scores and announce the winners at the end of the tournament.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Have prizes for the winning team(s).
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Take breaks to refuel and socialize
+                        <br>
+                        p(style="padding:5% 0") Laser tag is a lot of fun, but it can also be tiring. Be sure to take breaks throughout the party so that your guests can refuel and socialize. You can provide food and drinks for your guests, or you can have them bring their own. You may also want to set up a table and chairs where guests can relax and socialize during breaks.
+
+            div#howtoplaymob2
+                div.playdivimg3mob
+
+                div.playcontentmob
+                        h3 Here are some tips for providing food and drinks at your laser tag party:
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Choose foods and drinks that are easy to eat and drink while standing up.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Have a variety of food and drinks available to accommodate different dietary restrictions.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Keep the food and drinks in a central location so that guests can easily access them.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Provide plenty of napkins and trash cans.
+                        <br>
+                        p Take lots of pictures and videos.
+
+                div.playdivimg4mob
+
+                div.playcontentmob
+                        h3 What can make your laser tag party more happening?
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Choose a date and time that works for your guests. Keep in mind that laser tag arenas can get busy, so it is important to book your party in advance.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Send out invitations early. This will give your guests plenty of time to RSVP and make arrangements.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Decorate the party area. You can use laser tag-themed decorations, such as balloons, streamers, and banners.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Have a plan for food and drinks. You can either cater the party or provide your own food and drinks.
+                        <br>
+                        div.bulletconmob                        
+                            div.bullet-itemmob
+                            p Create a playlist of energetic music. This will help to get your guests pumped up for some laser tag action.
+                        <br>
+                        p Assign a party host. This person will be responsible for making sure that everything runs smoothly and that your guests have a great time.
+
+            div#tipsandtrickmob
+                //- div.tipsabovemob
+                //-     p The goal of the game is to tag as many players on the other team as possible while avoiding being tagged yourself. When you are tagged, you are eliminated from the game. You can respawn at your team's base after a few seconds.
+                div.tipstrickmob
+                    h3 How Does Lazer Crazer <br> Host Laser Tag Parties?
+                    p Lazer crazer hosts laser tag parties at the arena itself, and also allows you to choose a venue to host the party. Planning a party is not easy, but lazer crazer makes it easier by saving you from all the hassle. All you have to do is let us know the date, time, and number of guests, and Laser Crazer will host the best laser tag party for you. You won’t have to worry about a single thing, from necessary equipment, including laser tag guns, vests, to scoreboards, we’ve got you covered.
+                    <br>
+                    p Ready to book a laser tag party for your next special occasion? Contact Lazer Crazer today and let us take care of the rest!
+
+            //- div#tipsbelowmob
+            //-     div.tipscontentmob
+            //-         p Laser tag is a unique and exciting experience that everyone should try at least once. It is a great way to get exercise, have fun with friends, and test your strategic skills. Laser tag arenas are designed to be fun and challenging for players of all ages. They are typically filled with obstacles and special effects.
+
+            //-         p If you are looking for an unforgettable laser tag experience, visit Lazer Crazer in Hauz Khaz! We have the largest laser tag arena in Delhi-NCR, and we offer a variety of laser tag modes to choose from, which will make your laser tag experience better than ever. 
+
+            //-         p 
+            //-             span.book-highlight Book 
+            //-             | your slots and get your tickets from our website now!
+
+            h3.blogheading VIEW OUR BLOGS
+            div#blogconmob
+                div#blogboxmob
+                    div.blogboxmob1(onclick="window.location.href='views\lazertagparty.pug'")
+                    div.blogboxmob2(onclick="window.location.href='views\lazertagparty.pug'")
+
+            div#blogscon
+                div#blogboxs
+                    div.blogbox1(onclick="window.location.href='\views\lazeragrental.pug'", style="cursor:pointer")
+                    div.blogbox2(onclick="window.location.href='views/lazertagparty.pug'", style="cursor:pointer")
+                    div.blogbox3
+                div#blogboxmob
+                    div.blogboxmob3
+
+            div#testingclientmob
+
+            //- div#testimonials
+            //-     div#parallax-object14
+            //-     //-     picture
+            //-             source(type="image/webp" srcset="/static/img/parallax-object14.webp")
+            //-             source(type="image/png" srcset="/static/img/parallax-object14.png")
+            //-             img#move14(src="../static/img/parallax-object14.png" alt="cant load photo")
+            //-     div#parallax-object15
+            //-         picture
+            //-             source(type="image/webp" srcset="/static/img/parallax-object15.webp")
+            //-             source(type="image/png" srcset="/static/img/parallax-object15.png")
+            //-             img#move15(src="../static/img/parallax-object15.png" alt="cant load photo")
+            //-     h1 VIEW OUR BLOGS
+                
+            //-     div#testimonials-content
+            //-         div#testimonials-bg
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/testimonials-bg.webp")
+            //-                 source(type="image/png" srcset="/static/img/testimonials-bg.png")
+            //-                 img(src="../static/img/testimonials-bg.png" alt="cant load photo")
+            //-         div#testimonials-para
+            //-             //- p OVER 1500+ 5 STAR REVIEWS ON GOOGLE.
+            //-             //- p HEAR WHAT SOME OF OUR CUSTOMERS ARE SAYING
+            //-         div#clients
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client1.webp")
+            //-                 source(type="image/png" srcset="/static/img/client1.png")
+            //-                 img(src="../static/img/client1.png" alt="cant load photo")
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client2.webp")
+            //-                 source(type="image/png" srcset="/static/img/client2.png")
+            //-                 img(src="../static/img/client2.png" alt="cant load photo")
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client3.webp")
+            //-                 source(type="image/png" srcset="/static/img/client3.png")
+            //-                 img(src="../static/img/client3.png" alt="cant load photo")
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client4.webp")
+            //-                 source(type="image/png" srcset="/static/img/client4.png")
+            //-                 img(src="../static/img/client4.png" alt="cant load photo")
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client5.webp")
+            //-                 source(type="image/png" srcset="/static/img/client5.png")
+            //-                 img(src="../static/img/client5.png" alt="cant load photo")
+            //-             picture
+            //-                 source(type="image/webp" srcset="/static/img/client6.webp")
+            //-                 source(type="image/png" srcset="/static/img/client6.png")
+            //-                 img(src="../static/img/client6.png" alt="cant load photo")
+
+            div#clientAndForm
+                div#contact-form
+                    form#contactForm
+                        p GET IN TOUCH WITH US
+                        div#row1
+                            input(type="text" name="name" id='name' Class="myInput" placeholder="Your Name" required)
+                            input(type="tel" value='+91' name="phone" id='phone' Class="myInput" placeholder="Phone" minlength="13" maxlength="13" pattern="['+']{1}[1-9]{3}[0-9]{9}" title='Enter a valid 10-digit number' required)
+                            input(type="email" name="email" id='email' Class="myInput" placeholder="Email" required)
+                        div#row2
+                            textarea.textarea.myInput(name="message" id='message' cols="30" rows="10" placeholder="Send Comments")
+                        div#btn-container
+                            button(type="submit")#sendRequest SEND REQUEST
+            footer#footer            
+                div#footer-design
+                    picture
+                        source(type="image/webp" srcset="/static/img/footer-design.webp")
+                        source(type="image/png" srcset="/static/img/footer-design.png")
+                        img(src="../static/img/footer-design.png" alt="cant load photo")
+                div#footer-design-right
+                    picture
+                        source(type="image/webp" srcset="/static/img/footer-design-right.webp")
+                        source(type="image/png" srcset="/static/img/footer-design-right.png")
+                        img(src="../static/img/footer-design-right.png" alt="cant load photo")
+                div#footer-design2
+                    picture
+                        source(type="image/webp" srcset="/static/img/footer-design2.webp")
+                        source(type="image/png" srcset="/static/img/footer-design2.png")
+                        img(src="../static/img/footer-design2.png" alt="cant load photo")
+                div#footer-content
+                    div#brand-section
+                        div#brand-logo
+                            picture
+                                source(type="image/webp" srcset="/static/img/footer-logo.webp")
+                                source(type="image/png" srcset="/static/img/footer-logo.png")
+                                img(src="../static/img/footer-logo.png" alt="cant load photo")
+                        p DELHI’S LARGEST AND TOP RATED LASER TAG ARENA IN HAUZ KHAS VILLAGE
+                    div#mid-section
+                        p Lazer Crazer Laser Tag
+                        div#pixy Website by 
+                            a(href='https://pixysquare.com/' target='_blank')  www.pixysquare.com 
+                                div (click & connect)
+                        div#social-icons
+                            a(href='https://www.facebook.com/lazercrazer1' target='_blank')
+                                img(src="../static/img/fb.png" alt="cant load photo")
+                            a(href='https://www.instagram.com/lazercrazer/' target='_blank')
+                                img(src="../static/img/insta.png" alt="cant load photo")
+                            a(href='https://www.youtube.com/@lazercrazer4544' target='_blank')
+                                img(src="../static/img/youtube.png" alt="cant load photo")
+                    div#contact-section
+                        div#address
+                            img(src="../static/img/location.png" alt="cant load photo")
+                            a(href='https://goo.gl/maps/3E7CiTjJRayBFssh7' target='_blank') 1A Hauz khas village, New delhi, india, 110016
+                        div#mobile
+                            img(src="../static/img/phone.png" alt="cant load photo")
+                            p +91 8840175266/ 9971385510
+                        div#mail
+                            img(src="../static/img/envelope.png" alt="cant load photo")
+                            p Contact@lazercrazer.in
+            div#copyright
+                p Copyright © 2022 Lazer Crazer. All rights reserved / 
+                    a(href='/privacy') Privacy Policy 
+            div#loading
+                div#loading-design1
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design1.webp")
+                        source(type="image/png" srcset="/static/img/loading-design1.png")
+                        img(src="../static/img/loading-design1.png" alt="cant load photo")
+                div#loading-planet
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-planet.webp")
+                        source(type="image/png" srcset="/static/img/loading-planet.png")
+                        img(src="../static/img/loading-planet.png" alt="cant load photo")
+                div#progressBar
+                    div#progress
+                    div#progress-perc 0%
+                div#loading-design2
+                    picture
+                        source(type="image/webp" srcset="/static/img/loading-design2.webp")
+                        source(type="image/png" srcset="/static/img/loading-design2.png")
+                        img(src="../static/img/loading-design2.png" alt="cant load photo")
+            a(href='https://wa.me/918840175266?text=Hello')#whatsapp-icon
+                svg(xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon")
+                    path(d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd")
+                p#message-us Message Us
+            block scripts
+                script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+                script(src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js' integrity='sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==' crossorigin='anonymous' referrerpolicy='no-referrer')
+                script
+                    include ../static/script.min.js
+                    include ../static/index.min.js

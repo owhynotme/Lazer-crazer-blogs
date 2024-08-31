@@ -1,0 +1,929 @@
+#blogs {
+    position: relative;
+    height: 70vh;
+    margin-top: 100px;
+    z-index: 100;
+    width: 100vw;
+    /* padding-top: 3%; */
+}
+
+/* Bullet */
+.bullet-item {
+    /* margin-bottom: 10px; Adjust spacing between items as needed */
+    position: relative;
+    padding-left: 20px; /* Adjust the space for the "bullet" */
+    padding-top: 2.2%;
+  }
+  
+  .bullet-item::before {
+    content: "\2022"; /* Unicode character for a bullet point (•) */
+    color: #2CF70B; /* Adjust color as needed */
+    font-size: 2em; /* Adjust size as needed */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5px; /* Adjust spacing between bullet and text as needed */
+  }  
+
+.bullet-itemmob {
+    margin-bottom: 10px; /* Adjust spacing between items as needed */
+    position: relative;
+    padding-left: 20px; /* Adjust the space for the "bullet" */
+    margin-top: 3%;
+  }
+  
+  .bullet-itemmob::before {
+    content: "\2022"; /* Unicode character for a bullet point (•) */
+    color: #2CF70B; /* Adjust color as needed */
+    font-size: 1.5em; /* Adjust size as needed */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5px; /* Adjust spacing between bullet and text as needed */
+  }  
+
+#blogs-up{
+    position: relative;
+    height: 21.5vh;
+    /* margin-top: 90px; */
+    z-index: 100;
+    padding-top: 5%;
+    /* display: none; */
+}
+
+#heading1 {
+    margin-top: 8%;
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.9%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+    font-size: 2.5rem;
+}
+
+#blogs::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+#blogs-up::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+#howto-flex{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* gap: 4%; */
+  margin-bottom: 8%;
+  /* height: 10vh; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.howtoH{
+    color: #2CF80B;
+    /* text-align: center; */
+    font-family: Lexend Giga;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.9%; /* 26.402px */
+    letter-spacing: 2.086px;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+/* Play Para */
+
+#playpara{
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 20%; */
+    margin: 2% 9.5%;
+}
+
+.playparaH{
+    color: white;
+    font-family: Lexend Giga;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.playparaP{
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.9%; /* 31.896px */
+    letter-spacing: 2.52px;
+    margin-bottom: 2.5%;
+}
+
+/* howtoplay 1 */
+
+#howtoplay{
+    position: relative;
+    height: 222vh;
+    /* margin-top: 120px; */
+    z-index: 100;
+    width: 100vw;   
+}
+
+#howtoplay::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+/* Howtoplay 2 */
+
+#howtoplay2{
+    position: relative;
+    height: 180vh;
+    margin-top: 20%;
+    z-index: 100;
+    width: 100vw;   
+}
+
+#howtoplay2::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+.howtoplayhead h2{
+    color: #2CF80B;
+    text-align: center;
+    font-family: Lexend Giga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.9%; /* 53.16px */
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.howtoplayhead p{
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend Giga;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.9%; /* 37.212px */
+    letter-spacing: 2.94px;
+    text-transform: uppercase;
+}
+
+.playdivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin: 0 8%; */
+} 
+
+/* Playdivs */
+
+.playdivimg1{
+    margin-top: 3%;
+    height: 466px;
+    width: 1000px;
+    background: url('/static/img/lazertagparty/play1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playdivimg2{
+    margin-top: 3%;
+    height: 466px;
+    width: 1000px;
+    background: url('/static/img/lazertagparty/play2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playdivimg3{
+    margin-top: 3%;
+    height: 466px;
+    width: 1000px;
+    background: url('/static/img/lazertagparty/play3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playdivimg4{
+    z-index: 110;
+    margin-top: 3%;
+    height: 466px;
+    width: 1000px;
+    background: url('/static/img/lazertagparty/play4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Bullet content */
+.bulletcon{
+    display: flex;
+    align-items: start;
+}
+
+/* playcontent */
+
+.playcontent{
+    width: 65%;
+}
+
+.playcontent p{
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.playcontent h3{
+    color: #2CF70B;
+    font-family: Lexend Giga;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.9%; /* 31.896px */
+    letter-spacing: 2.52px;
+    text-transform: uppercase;
+    margin: 3% 0;
+}
+
+#extrastars{
+    position: relative;
+    height: 40vh;
+    /* margin-top: 85px; */
+    z-index: 100;
+    width: 100vw;   
+}
+
+#extrastars::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+#tipsabove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#tipsabove p{
+    width: 70%;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.9%; /* 31.896px */
+    letter-spacing: 2.52px;
+}
+
+/* tipstricks */
+#tipstricks{
+    position: relative;
+    height: 30vh;
+    margin-top: 70px;
+    z-index: 100;
+    width: 100vw;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+#tipstricks::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+/* Tips */
+#tips{
+    width: 68%;
+}
+
+#tips h3{
+    color: #2CF70B;
+    font-family: Lexend Giga;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.9%; /* 37.212px */
+    letter-spacing: 2.94px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#tips p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.9%; /* 31.896px */
+    letter-spacing: 2.52px;
+}
+
+/* tipsbottom */
+
+#tipsbottom{
+    color: #FFF;
+    width: 70%;
+    margin-top: 2%;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.9%; /* 31.896px */
+    letter-spacing: 2.52px;
+}
+
+#testimonials{
+    position: relative;
+    height: 120vh;
+    margin-top: 70px;
+    z-index: 100;
+    width: 100vw;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+#testimonials::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    position: absolute;
+    background: url('../static/img/stars.webp') no-repeat center center/cover;
+}
+
+/* blogbox */
+
+#blogscon{
+    height: 104.5vh;
+    width: 100%;
+    margin-top: 5%;
+    background: url('static/img/blogbanner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+#blogboxs{
+    height: 100%;
+    width: 110%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.blogbox1{
+    height: 60%;
+    width: 25%;
+    background: url('static/img/Component1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.blogbox2{
+    height: 60%;
+    width: 25%;
+    background: url('static/img/Component2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.blogbox3{
+    height: 60%;
+    width: 25%;
+    background: url('static/img/Component3-blur.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.blogheading{
+    margin-top: 10%;
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend Giga;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.9%; /* 85.056px */
+    letter-spacing: 6.72px;
+}
+
+#headmob{
+    display: none;
+}
+
+#blogboxmob{
+    display: none;
+}
+#howtoplayabovemob{
+    display: none;
+}
+
+#clientsmob{
+    display: none;
+}
+#howtoplaymob{
+    display: none;
+}
+#howtoplaymob2{
+    display: none;
+}
+
+#tipsandtrickmob{
+    display: none;
+}
+#tipsbelowmob{
+    display: none;
+}
+#howtoflexmob{
+    display: none;
+}
+
+/* Media */
+
+@media only screen and (max-width: 600px) {    
+
+    #heading1{
+        display: none;
+    }
+    #headmob{
+        height: 51vh;
+        width: 100%;
+        display: block;
+        margin-top: 4%;
+        background: url('/static/img/homebanner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #headmob h3{
+        color: #2CF80B;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 132.9%; /* 26.58px */
+        letter-spacing: 2.1px;
+        padding-top: 30%;
+        margin-bottom: 10%;
+    }
+    #headmob h2{
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 10px 23.358px rgba(255, 255, 255, 0.41);
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 129.4%; /* 18.116px */
+        letter-spacing: 0.14px;
+        margin-top: 3%;
+    }
+
+    /* Blogs */
+    #blogs{
+        margin-top: -20%;
+        height: 65vh;
+    }
+    
+    #howto-flex{
+       flex-direction: column;
+       position: relative;
+       left: 50%;
+       display: none;
+    }
+
+    #howto-flex1{
+        margin-bottom: 3%;
+        /* width: 50%; */
+    }
+    #howto-flex2{
+        margin-bottom: 3%;
+    }
+    .howtoH{
+        font-size: 14px;
+    }
+    
+    .playparaH{
+        font-size: 14px;
+    }
+    .playparaP{
+        font-size: 14px;
+    }
+
+    #howtoplay{
+        display: none;
+    }
+    #howtoplay2{
+        display: none;
+    }
+    #extrastars{
+        display: none;
+    }
+    #tipstricks{
+        display: none;
+    }
+    .playparaPunique{
+        color:#2CF70B; 
+        text-align:left
+    }
+    /* Desktop Responsive Display none */
+    
+
+
+    /* Blogs 2 */
+    #blogscon{
+        height: 100vh;
+        /* height: 150vh; */
+        width: 100vw;
+        margin-top: -40%;
+        background: url('static/img/bannermob2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;       
+    }
+    #blogboxs{
+        display: none;
+    }
+
+    .blogheading{
+        color: #FFF;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 132.9%; /* 31.896px */
+        letter-spacing: 2.52px;
+    }
+    #blogboxmob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .blogboxmob1{
+        height: 70%;
+        width: 80%;
+        background: url('static/img/Component1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    #blogconmob{
+        height: 120vh;
+        width: 100%;
+    }
+    .blogboxmob2{
+        /* margin-top: 0; */
+        height: 70%;
+        width: 80%;
+        background: url('static/img/Component2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .blogboxmob3{
+        /* margin-top: 0; */
+        height: 70%;
+        width: 80%;
+        background: url('static/img/Component3-blur.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50%;
+    }
+    /* How  to play */
+
+    .howtoplayabovemob{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+    }
+    .howtoplayheading{
+        color: #2CF80B;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+    }
+    
+    #howtoplayabovemob p{
+        padding: 5% 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        /* margin-top: 3%; */
+    }
+
+    /* How to play center */
+
+    #howtoplaymob{
+        height: 330vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #howtoplaymob2{
+        height: 260vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Play Images */
+    .playdivimg1mob{
+        height: 40%;
+        width: 90%;
+        background: url('/static/img/lazertagparty/play1mob.png');
+        background-repeat: no-repeat;
+        background-size: cover;       
+        /* margin: 4% 0; */
+        margin: 5% 0;
+        /* margin-bottom: 3%; */
+    }
+    .playdivimg2mob{
+        height: 40%;
+        width: 90%;
+        background: url('/static/img/lazertagparty/play2mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;       
+        /* margin: 4% 0; */
+        margin-top: 5%;
+    }
+
+    .playdivimg3mob{
+        height: 40%;
+        width: 90%;
+        background: url('/static/img/lazertagparty/play3mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;       
+        /* margin: 4% 0; */
+        margin-top: 5%;
+    }
+
+    .playdivimg4mob{
+        height: 40%;
+        width: 90%;
+        background: url('/static/img/lazertagparty/play4mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;       
+        /* margin: 4% 0; */
+        margin-top: 5%;
+    }
+
+    .playcontentmob{
+        width: 90%;
+    }
+    .playcontentmob h3{
+        color: #2CF70B;
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        margin-top: 3%;
+        padding-bottom: 10%;
+    }
+    
+    .playcontentmob p{
+        color: #FFF;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+    }
+    .bulletconmob{
+        display: flex;
+        align-items: start;
+    }   
+    #tipsandtrickmob{
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tipsabovemob{
+        width: 90%;
+        margin-top: 10%;
+    }
+    .tipsabovemob p{
+        /* padding-top: 10%; */
+        color: #FFF;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+    }
+
+    .tipstrickmob{ 
+        margin: 10% 0;
+        width: 87%;
+    }
+    .tipstrickmob h3{
+        color: #2CF70B;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 21.264px */
+        letter-spacing: 1.68px;
+        text-transform: uppercase;
+        margin-bottom: 15%;
+        margin-top: 5%;
+    }
+    .tipstrickmob p{
+        color: #FFF;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        margin-bottom: 5%;
+    }
+    #tipsbelowmob{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tipscontentmob{
+        height: 100%;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .tipscontentmob p{
+        color: #FFF;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+    .book-highlight {
+        color: #2CF80B;
+        /* Add any other styling as needed */
+    }
+    .color-highlight{
+        color: #2CF70B;
+    }
+    #blogs-up{
+        display: none;
+    }   
+    #homebanner{
+        margin-top: 5%;
+        height: 47vh;
+        width: 100%;
+        background: url('/static/img/homebanner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #testingclientmob{
+        height: 30vh;
+        width: 100%;
+        background: url('/static/img/clinetbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -3.3%;
+    }
+    #check{
+        height: 35vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -25%;
+    }
+    .checks {
+        width: 90%;
+    }
+    .checks h3{
+        color: #2CF80B;
+        text-align: center;
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+    .playparaPunique{
+        color: #FFF;
+        font-family: Lexend Giga;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.9%; /* 18.606px */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        margin: 7% 0;
+    }
+    /* #playpara{} */
+}
+
+/* Desktop responsive  */
+@media (min-width: 768px) {
+    #check {
+      display: none;
+    }
+    .howtoplayheading{
+        display: none;
+    }
+}

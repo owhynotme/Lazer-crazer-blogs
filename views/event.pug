@@ -1,0 +1,401 @@
+doctype html 
+html 
+    head
+        //- Google Tag Manager
+        script.
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NZ24JXK');
+        //- End Google Tag Manager
+        title Lazer Crazer
+        block style
+        style
+            include ../static/style.css
+            include ../static/event.css
+
+        //- LINK TAGS FOR WEBSITE"S FAVICON
+        link(rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon_io/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon_io/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon_io/favicon-16x16.png")
+        link(rel="manifest" href="../static/img/favicon_io/site.webmanifest")
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description', content='Lazer Crazer - Best gaming area for kids and adults')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        link(rel='stylesheet' media='screen and (max-width: 1000px)' href='../static/responsive.css')
+    block content 
+        body 
+            //- Google Tag Manager (noscript)
+            noscript
+                iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-NZ24JXK' height='0' width='0' style='display:none;visibility:hidden')
+            //- End Google Tag Manager (noscript)
+            div#navbar
+                div#ul1-wrapper
+                    ul#ul1
+                        li #[a(href='/') HOME]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                #nav-logo
+                    picture
+                        source(type="image/webp" srcset="/static/img/logo-background.webp")
+                        source(type="image/png" srcset="/static/img/logo-background.png")
+                        img#logo-background(src="../static/img/logo-background.png" alt="cant load photo")
+                    a(href='/')
+                        picture
+                            source(type="image/webp" srcset="/static/img/logo.webp")
+                            source(type="image/png" srcset="/static/img/logo.png")
+                            img#main-logo(src="../static/img/logo.png" alt="cant load photo")
+                div#ul2-wrapper
+                    ul#ul2 
+                        li #[a(href='/rental') RENTING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            picture
+                                source(type="image/webp" srcset="/static/img/home-navigator.webp")
+                                source(type="image/png" srcset="/static/img/home-navigator.png")
+                                img#home-navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                div#nav-planet 
+                    picture
+                        source(type="image/webp" srcset="/static/img/nav-planet.webp")
+                        source(type="image/png" srcset="/static/img/nav-planet.png")
+                        img(src="../static/img/nav-planet.png" alt="cant load photo")
+
+            div#mobile-navbar
+                div#visible-navbar
+                    a#mobile-logo(href='/')
+                        img(src="../static/img/logo.png" alt="cant load photo")
+                    div#hamburger-icon
+                        span.bar
+                        span.bar
+                        span.bar
+                div#nav-items
+                    ul 
+                        li#home #[a(href='/') HOME]
+                            img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/event') EVENT]
+                            img#navigator.main(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/franchise') FRANCHISE] 
+                            img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/rental') RENTING]
+                            img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/activities') ACTIVITIES]
+                            img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                        li #[a(href='/calender') BOOKING]
+                            img#navigator(src="../static/img/home-navigator.png" alt="cant load photo")
+                    div#nav-lightining1
+                        img(src="../static/img/nav-lightining1.png" alt="cant load photo")
+                    div#nav-lightining2
+                        img(src="../static/img/nav-lightining2.png" alt="cant load photo")
+                    div#nav-bottom-tower
+                        img(src="../static/img/nav-bottom-tower.png" alt="cant load photo")
+            div#planet-container
+                div#navM-planet2
+                    img(src="../static/img/navM-planet.png" alt="cant load photo")
+
+
+            div#event-banner
+                div#logo-background2
+                    img(src="../static/img/logo-background2.png" alt="cant load photo")
+                div#event-heading
+                    h1 EVENTS
+                    h2 BOOK YOUR NEXT STUNNING EVENT WITH US!
+
+                div#event-content
+                    div#event-left-design
+                        img(src="../static/img/event-left-design.png" alt="cant load photo")
+                    div#event-left-designM
+                        img(src="../static/img/event-left-designM.png" alt="cant load photo")
+
+                    div#event-right-design
+                        img(src="../static/img/event-right-design.png" alt="cant load photo")
+                div#event-base
+                    img(src="../static/img/event-base.png" alt="cant load photo")
+
+
+            div#event-desc
+                div#event-blend
+                div#event-desc-bg
+                    img#event-desc-bgD(src="../static/img/event-desc-bg.png" alt="cant load photo")
+                    img#event-desc-bgM(src="../static/img/event-desc-bgM.png" alt="cant load photo")
+                div#event-desc-content
+                    ul
+                        li 
+                            img(src="../static/img/event-bullet1.png" alt="cant load photo")
+                            p Laser Tag is a military tactical game bordering sports and high tech. It's a 21st-century technology entertainment loved by kids and adults alike.
+                        li 
+                            img(src="../static/img/event-bullet2.png" alt="cant load photo")
+                            p Our Lazer Tag setup is 100% mobile which means we can host parties at your premises – no traveling necessary, play from the safety of your own offices, or home, or pick your own venue to play at.
+                        li 
+                            img(src="../static/img/event-bullet3.png" alt="cant load photo")
+                            p Our mobile laser tag is a great choice for corporate parties. In past 4 years, we have done more than 100 college and corporate events.
+                        li 
+                            img(src="../static/img/event-bullet4.png" alt="cant load photo")
+                            p Lazer Crazer is most loved birthday party option among teens. At our arena, we are celebrating an average of 2 birthday parties every day.
+            div#event-party
+                div#eventParty-blend
+                h1 PARTY AT 
+                    span#green LAZER CRAZER
+                p#event-para YOU BRING THE
+                    span#green  PARTY
+                    span , WE WILL DO THE 
+                    span#green REST!!
+                div#event-parallax1
+                    img#move1(src="../static/img/event-parallax1.png" alt="cant load photo")
+                div#event-parallax2
+                    img#move2(src="../static/img/event-parallax2.png" alt="cant load photo")
+                div#event-parallax3
+                    img#move3(src="../static/img/event-parallax3.png" alt="cant load photo")
+                div#event-parallax4
+                    img#move4(src="../static/img/event-parallax4.png" alt="cant load photo")
+                div#event-party-containers
+                    div#partyContainer1.partyContainer.active
+                        a.moreDetails(href='/')
+                            img(src="../static/img/moreDetails.png" alt="cant load photo")
+                        div.party-img
+                            img.party(src="../static/img/party2.png" alt="cant load photo")
+                            img.partyActive(src="../static/img/partyActive1.png" alt="cant load photo")
+                            p.pContainerD Be it your kids or your friends which you are trying to please; Lazer Crazer Laser Tag has the best birthday party options for each scenario.
+                        div.partyContainer-content
+                            h3 Birthday Party
+                            p.para-inactive Are you looking for the best birthday party ever? 
+                            p.para-active You and your guests will look forward to this party, love playing it, and will talk about it for some time. 
+                            p.pContainerM Be it your kids or your friends which you are trying to please; Lazer Crazer Laser Tag has the best birthday party options for each scenario.
+                            a.learnMore(href='#contact-form') learn more
+
+                    div#partyContainer2.partyContainer
+                        a.moreDetails(href='/')
+                            img(src="../static/img/moreDetails.png" alt="cant load photo")
+                        div.party-img
+                            img.party(src="../static/img/party2.png" alt="cant load photo")
+                            img.partyActive(src="../static/img/partyActive2.png" alt="cant load photo")
+                            p.pContainerD We are 100% mobile and can come to your corporate park or facility or meet you at your off-site location and set up a mission field or You can also book a corporate event at our laser tag arena.
+                        div.partyContainer-content
+                            h3 Corporate Party
+                            p.para-inactive Team building at the highest level. Attractive packages for small and large company celebrations. 
+                            p.para-active We provide several gaming options, all designed to challenge, team build, and promote strategic planning in a fun and creative environment. 
+                            p.pContainerM We are 100% mobile and can come to your corporate park or facility or meet you at your off-site location and set up a mission field or You can also book a corporate event at our laser tag arena.
+                            a.learnMore(href='#contact-form') learn more
+
+                    div#partyContainer3.partyContainer
+                        a.moreDetails(href='/')
+                            img(src="../static/img/moreDetails.png" alt="cant load photo")
+                        div.party-img
+                            img.party(src="../static/img/party3.png" alt="cant load photo")
+                            img.partyActive(src="../static/img/partyActive3.png" alt="cant load photo")
+                            p.pContainerD We are 100% mobile. We will Bring The Fun to You! We offer party packages to meet ALL budgets 
+                        div.partyContainer-content
+                            h3 Private Parties
+                            p.para-inactive Tired of the same old party? An action-packed, fun, memorable party awaits you with Laser Crazer
+                            p.para-active If you have an environment that's ready for play, great! If not - we will bring our inflatable obstacles to construct your customized laser tag arena on your property
+                            p.pContainerM We are 100% mobile. We will Bring The Fun to You! We offer party packages to meet ALL budgets 
+                            a.learnMore(href='#contact-form') learn more
+
+            div#hostParty        
+                div#event-parallax5
+                    img#move5(src="../static/img/event-parallax5.png" alt="cant load photo")
+                div#event-parallax6
+                    img#move6(src="../static/img/event-parallax6.png" alt="cant load photo")
+                div#event-parallax7
+                    img#move7(src="../static/img/event-parallax7.png" alt="cant load photo")
+                div#event-parallax8
+                    img#move8(src="../static/img/event-parallax1.png" alt="cant load photo")
+                div#event-parallax9
+                    img#move9(src="../static/img/event-parallax8.png" alt="cant load photo")
+                div#event-parallax10
+                    img#move10(src="../static/img/event-parallax9.png" alt="cant load photo")
+                h1 WHY HOST 
+                    span#green LAZER TAG PARTY
+                div#hostParty-para Reasons to have laser tag parties at 
+                    span#green Lazer Crazer
+
+                div#hostParty-containers
+                    div.hostContainers
+                        div.hostContainers-img
+                            img(src="../static/img/hostContainers-img.png" alt="cant load photo")
+                        div.hostContainers-imgActive
+                            img(src="../static/img/hostContainers-imgActive.png" alt="cant load photo")
+                        div.hostContainers-content
+                            h3#green Action-Packed
+                            p Laser tag is an exciting and unique experience that will be sure to impress all of your guests
+
+                    div.hostContainers
+                        div.hostContainers-img
+                            img(src="../static/img/hostContainers-img.png" alt="cant load photo")
+                        div.hostContainers-imgActive
+                            img(src="../static/img/hostContainers-imgActive.png" alt="cant load photo")
+                        div.hostContainers-content
+                            h3#green Team Building
+                            p Socializing is important. Everyone have to learn how to communicate, Learn, work together, and achieve goals,
+
+                    div.hostContainers
+                        div.hostContainers-img
+                            img(src="../static/img/hostContainers-img.png" alt="cant load photo")
+                        div.hostContainers-imgActive
+                            img(src="../static/img/hostContainers-imgActive.png" alt="cant load photo")
+                        div.hostContainers-content
+                            h3#green Safe entertainment
+                            p there is no striking element - no pain or bruises, only general photos,joy and posts about achievements
+
+                    div.hostContainers
+                        div.hostContainers-img
+                            img(src="../static/img/hostContainers-img.png" alt="cant load photo")
+                        div.hostContainers-imgActive
+                            img(src="../static/img/hostContainers-imgActive.png" alt="cant load photo")
+                        div.hostContainers-content
+                            h3#green Affordability
+                            p laser tag is a relatively affordable option for a party, especially when compared to other options 
+
+
+            div#knowMore
+                div#knowMore-bg
+                    img(src="../static/img/knowMore-bg.png" alt="cant load photo")
+                div#knowMore-content
+                    div#knowMore-content-img
+                        img(src="../static/img/knowMore-content-img.png" alt="cant load photo")
+                    div#knowMore-content-para
+                        p To know more about Lazer Crazer Laser tag Parties and our party packages, 
+                        p
+                            a(href="tel:+918840175266") call 8840175266
+                        p Are you event or a PARTY planner ? 
+                            a#green(href='#clientAndForm') Get in touch
+
+
+            div#clientAndForm
+                div#event-parallax11
+                    img#move11(src="../static/img/parallax-object1.png" alt="cant load photo")
+                div#knowMore-blend
+                div#event-formBg
+                    img#event-formBgD(src="../static/img/event-formBg.png" alt="cant load photo")
+                    img#event-formBgM(src="../static/img/event-formBgM.png" alt="cant load photo")
+
+                div#contact-form
+                    form#contactForm
+                        p#formHeading PUT AN END TO BORING PARTIES
+                        p GET IN TOUCH WITH US
+                        div#row1
+                            input(type="text" name="name" id='name' Class="myInput" placeholder="Your Name" required)
+
+                            input(type="tel" value='+91' name="phone" id='phone' Class="myInput" placeholder="Phone" minlength="13" maxlength="13" pattern="['+']{1}[1-9]{3}[0-9]{9}" title='Enter a valid 10-digit number' required)
+
+                        div#row2
+                            input(type="email" name="email" id='email' Class="myInput" placeholder="Email" required)
+
+                            select.myInput(name="Parties" id='select1')
+                                option#placeholder(value="" disabled selected) Types of parties
+                                option(value="Birthday") Birthday 
+                                option(value="Corporate") Corporate
+                                option(value="Private") Private
+                        div#row3
+                            textarea.textarea.myInput(name="message" id='message' cols="30" rows="10" placeholder="Send Comments")
+                        div#btn-container
+                            button(type="submit")#sendRequest SEND REQUEST
+
+            div#clients-bg
+                div#clients
+                    img(src="../static/img/client1.png" alt="cant load photo")
+                    img(src="../static/img/client2.png" alt="cant load photo")
+                    img(src="../static/img/client3.png" alt="cant load photo")
+                    img(src="../static/img/client4.png" alt="cant load photo")
+                    img(src="../static/img/client5.png" alt="cant load photo")
+                    img(src="../static/img/client6.png" alt="cant load photo")
+            div#clients2
+                p#trusted TRUSTED BY
+                div.clients-container
+                    img(src="../static/img/client1.png" alt="cant load photo")
+                    img(src="../static/img/client2.png" alt="cant load photo")
+                    img(src="../static/img/client3.png" alt="cant load photo")
+                div.clients-container
+                    img(src="../static/img/client4.png" alt="cant load photo")
+                    img(src="../static/img/client5.png" alt="cant load photo")
+                    img(src="../static/img/client6.png" alt="cant load photo")
+
+            div#client-blend
+
+
+
+            footer#footer            
+                div#footer-design
+                    img(src="../static/img/footer-design.png" alt="cant load photo")
+                div#footer-design-right
+                    img(src="../static/img/footer-design-right.png" alt="cant load photo")
+                div#footer-design2
+                    img(src="../static/img/footer-design2.png" alt="cant load photo")
+                div#footer-content
+                    div#brand-section
+                        div#brand-logo
+                            img(src="../static/img/footer-logo.png" alt="cant load photo")
+                        p DELHI’S LARGEST AND TOP RATED LASER TAG ARENA IN HAUZ KHAS VILLAGE
+                    div#mid-section
+                        p Lazer Crazer Laser Tag
+                        div#pixy Website by 
+                            a(href='https://pixysquare.com/' target='_blank')  www.pixysquare.com 
+                                div (click & connect)
+                        div#social-icons
+                            a(href='https://www.facebook.com/lazercrazer1' target='_blank')
+                                img(src="../static/img/fb.png" alt="cant load photo")
+                            a(href='https://www.instagram.com/lazercrazer/' target='_blank')
+                                img(src="../static/img/insta.png" alt="cant load photo")
+                            a(href='https://www.youtube.com/@lazercrazer4544' target='_blank')
+                                img(src="../static/img/youtube.png" alt="cant load photo")
+                    div#contact-section
+                        div#address
+                            img(src="../static/img/location.png" alt="cant load photo")
+                            a(href='https://goo.gl/maps/3E7CiTjJRayBFssh7' target='_blank') 1A Hauz khas village, New delhi, india, 110016
+                        div#mobile
+                            img(src="../static/img/phone.png" alt="cant load photo")
+                            p +91 8840175266/ 9971385510
+                        div#mail
+                            img(src="../static/img/envelope.png" alt="cant load photo")
+                            p Contact@lazercrazer.in
+
+            div#copyright
+                p Copyright © 2022 Lazer Crazer. All rights reserved / 
+                    a(href='/privacy' target="_blank") Privacy Policy 
+
+            div#loading
+                div#loading-design1
+                    img(src="../static/img/loading-design1.png" alt="cant load photo")
+
+                div#loading-planet
+                    img(src="../static/img/loading-planet.png" alt="cant load photo")
+                div#progressBar
+                    div#progress
+                    div#progress-perc 0%
+
+                div#loading-design2
+                    img(src="../static/img/loading-design2.png" alt="cant load photo")
+
+        a(href='https://wa.me/918840175266?text=Hello')#whatsapp-icon
+            svg(xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" class="wa-messenger-svg-whatsapp wh-svg-icon")
+                path(d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd")
+            p#message-us Message Us
+
+
+            block scripts
+                script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js")
+                script(src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js' integrity='sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==' crossorigin='anonymous' referrerpolicy='no-referrer')
+                script 
+                    include ../static/script.js
+                    include ../static/event.js

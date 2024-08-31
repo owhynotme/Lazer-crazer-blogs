@@ -1,0 +1,74 @@
+#loading2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+    background: linear-gradient(180deg, #010D3B 0%, #01092C 100%);
+}
+#thank-heading {
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Potta One';
+}
+#thank-heading h1 {
+    font-size: 2rem;
+}
+#thank-para {
+    margin-top: 15px;
+}
+#thank-heading p {
+    font-size: 1rem;
+}
+#thank-heading a {
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    font-size: .9rem;
+}
+#thank-heading a:hover {
+    color: #FFFFFF;
+}
+#thank-planet {
+    width: 350px;
+    animation: planetRotate 10s infinite;
+}
+
+@keyframes planetRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#thank-planet img {
+    height: 100%;
+    width: 100%;
+}
+
+#thank-design1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#thank-design2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    #thank-planet {
+        width: 310px;
+    }
+}

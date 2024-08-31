@@ -1,0 +1,528 @@
+#nav-logo img {
+    width: 400px;
+    top: -11px;
+    left: -187px;
+}
+
+#logo-background {
+    transform: rotate(-10deg);
+}
+
+#logo-background.active {
+    animation: rotate 1.5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+#knowMore-content-img {
+    height: 280px;
+}
+@keyframes rotate {
+
+    0%,
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    50%,
+    100% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#activities-banner {
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#activities-banner-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lexend Giga';
+    font-style: normal;
+}
+
+#activities-banner-content h1 {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+    padding-bottom: 28px;
+    z-index: 100;
+}
+
+#desktop-activities-para {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 132.4%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-shadow: 0px 19.8584px 23.358px rgba(255, 255, 255, 0.29);
+}
+
+#mobile-activities-para {
+    display: none;
+}
+
+#line-breaker {
+    display: block;
+}
+
+#activities-banner-rDesign {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#activities-banner-rDesign img {
+    height: 100%;
+    width: 100%;
+}
+
+#activities-banner-lDesign {
+    position: absolute;
+    left: 4%;
+    bottom: 6%;
+    height: 160px;
+}
+
+#activities-banner-lDesign img {
+    height: 100%;
+    width: 100%;
+}
+
+#kid-jumping {
+    position: absolute;
+    left: 8%;
+    bottom: 42%;
+    height: 145px;
+}
+
+#kid-jumping img {
+    height: 100%;
+    width: 100%;
+}
+
+#console-controls {
+    position: absolute;
+    left: 4%;
+    top: 22%;
+    height: 100px;
+}
+
+#console-controls img {
+    height: 100%;
+    width: 100%;
+}
+
+#activities-banner-mobile {
+    display: none;
+}
+
+#activities-banner-mobile img {
+    height: 100%;
+    width: 100%;
+}
+
+
+#arrow-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrow1 {
+    height: 60px;
+    margin: -13px 0;
+    opacity: 0;
+}
+
+#arrow1.active {
+    animation: .3s arrow1 linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3300ms;
+}
+
+@keyframes arrow1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#arrow1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#arrow2 {
+    height: 60px;
+    margin: -13px 0;
+    opacity: 0;
+}
+
+#arrow2.active {
+    animation: .3s arrow2 linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3500ms;
+}
+
+@keyframes arrow2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#arrow2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#arrow3 {
+    height: 60px;
+    margin: -13px 0;
+    opacity: 0;
+}
+
+#arrow3.active {
+    animation: .3s arrow3 linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3700ms;
+}
+
+@keyframes arrow3 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#arrow3 img {
+    height: 100%;
+    width: 100%;
+}
+
+#mobile-arrow {
+    display: none;
+}
+
+#types-heading {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 215.9%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+#types-heading #green {
+    font-family: 'Potta One';
+    font-style: normal;
+}
+
+#type1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin-top: 100px;
+}
+
+#type1-bg img {
+    height: 100%;
+    width: 100%;
+}
+
+#type1-content {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-family: 'Lexend Giga';
+    font-style: normal;
+}
+
+#type1-content h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 132.9%;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+    text-shadow: 3px -4px 27px rgba(44, 248, 11, 0.7);
+}
+
+#type1-content p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 155.9%;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    width: 315px;
+    margin-top: 28px;
+}
+
+.type2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 0;
+    width: 90%;
+    margin: auto;
+    background: #010A32;
+    padding: 50px 35px;
+    margin-top: 100px;
+}
+
+.type2-bg {
+    height: 315px;
+}
+
+.type2-bg img {
+    height: 100%;
+    width: 100%;
+}
+
+.type2-content h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 132.9%;
+    letter-spacing: 0.105em;
+    color: #2CF80B;
+    text-shadow: 3px -4px 27px rgba(44, 248, 11, 0.7);
+}
+
+.type2-content {
+    font-family: 'Lexend Giga';
+    font-style: normal;
+}
+
+.type2-content p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 155.9%;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    width: 315px;
+    margin-top: 28px;
+}
+
+#type1-bgM {
+    display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    #activities-banner-lDesign {
+        height: 130px;
+    }
+
+    #kid-jumping {
+        height: 125px;
+    }
+
+    #console-controls {
+        height: 80px;
+    }
+
+    #arrow1 {
+        margin: -11px 0;
+        height: 50px;
+    }
+
+    #arrow2 {
+        margin: -11px 0;
+        height: 50px;
+    }
+
+    #arrow3 {
+        margin: -11px 0;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #clientAndForm {
+        margin-top: 195px;
+    }
+    #client-blend {
+        top: -7%;
+    }
+
+    #knowMore-content-img {
+        width: 215px;
+        bottom: 78%;
+        height: auto;
+    }
+
+    #activities-banner-lDesign {
+        display: none;
+    }
+
+    #activities-banner-rDesign {
+        display: none;
+    }
+
+    #kid-jumping {
+        display: none;
+    }
+
+    #console-controls {
+        display: none;
+    }
+
+    #activities-banner-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #mobile-activities-para {
+        display: block;
+        font-weight: 400;
+        font-size: .9rem;
+        line-height: 129.4%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        padding: 0 30px;
+        text-shadow: 0px 11.408px 13.4184px rgba(255, 255, 255, 0.29);
+    }
+
+    #desktop-activities-para {
+        display: none;
+    }
+
+    #activities-banner-content {
+        justify-content: start;
+        top: 20%;
+    }
+
+    #activities-banner-mobile {
+        display: block;
+        position: absolute;
+        bottom: 22%;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #mobile-arrow {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mobile-arrow img {
+        height: 80px;
+        width: 80px;
+    }
+
+    #arrow-container {
+        display: none;
+    }
+
+    .type2 {
+        flex-direction: column-reverse;
+    }
+
+    .type2-bg {
+        height: 100%;
+    }
+
+    .type2-content p {
+        width: 100%;
+        font-size: .8rem;
+        margin-bottom: 35px;
+        padding: 0 42px 0 0;
+    }
+
+    #type1-bgM {
+        display: block;
+    }
+
+    #type1-bgD {
+        display: none;
+    }
+
+    #type1 {
+        height: unset;
+    }
+
+    #type1-content {
+        top: 14%;
+        left: 12%;
+    }
+
+    #type1-content p {
+        padding: 0 42px 0 0;
+    }
+
+    #type1-bg {
+        width: 90%;
+        margin: auto;
+    }
+
+    #types-heading {
+        font-size: 1.4rem;
+    }
+
+    #order-change {
+        flex-direction: column;
+    }
+
+    #order-change .type2-bg {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #activities-banner-mobile {
+        bottom: 17%;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    #mobile-activities-para {
+        font-size: .8rem;
+    }
+
+    #mobile-arrow img {
+        height: 70px;
+        width: 70px;
+    }
+
+    #client-blend {
+        top: -8%;
+    }
+
+}
